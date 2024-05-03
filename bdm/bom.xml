@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.discol.model.AdditionalData">
+            <fields>
+                <field type="STRING" length="255" name="assignedSite" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="helper" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.discol.model.Approvations">
+            <description>Nodos que hacen desicion en el flujo</description>
+            <fields>
+                <relationField type="AGGREGATION" reference="com.discol.model.Status" fetchType="LAZY" name="administrativeApprovation" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.Status" fetchType="LAZY" name="humanResourcesApprovation" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.Status" fetchType="LAZY" name="uploadCurricullums" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.Status" fetchType="LAZY" name="interviewStatus" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.Status" fetchType="LAZY" name="backgroundStatus" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.Status" fetchType="LAZY" name="leaderApprovation" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.Status" fetchType="LAZY" name="approvationHSE" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.discol.model.ContractType">
+            <description>Tipo de contrato</description>
+            <fields>
+                <field type="BOOLEAN" length="255" name="isContractedLabor" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isUndefined" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isFixedTerm" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isLearning" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.discol.model.Curricullums">
+            <fields>
+                <field type="STRING" length="255" name="applicantName" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="applicantMidname" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="applicantLastname" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="foundBy" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="document" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.discol.model.Gear">
+            <description>Tipo de elementos, equipos o herramientas que se reqioeren para la labor a contratar</description>
+            <fields>
+                <field type="BOOLEAN" length="255" name="isDesktopPC" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isLaptop" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isScreen" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isKeyboard" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isMouse" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isEmail" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isDesk" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isChair" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isOther" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="other" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.discol.model.Interview">
+            <fields>
+                <field type="STRING" length="255" name="applicantPersistenceId" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="postulation" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="age" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isPreviusEmployee" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isHaveVehicle" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="schoolarLevelRequired" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="experienceRequired" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="competencesRequired" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="techKnowledge" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="adaptation" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="observations" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isSelected" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="interviewer" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.discol.model.RequestEmployeeData">
+            <description>Datos sobre la petición de personal</description>
+            <fields>
+                <field type="LOCALDATETIME" length="255" name="startDate" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="receptionDate" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="site" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="companyPosition" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="area_proyect" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isHandbookFunction" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="workPlace" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="vacancies" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.TimeScale" fetchType="LAZY" name="duration" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="salary" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isBonus" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.TimeScale" fetchType="LAZY" name="bonusesFrecuency" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isVehicle" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="vehicleType" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="licenceType" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="bearingValue" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.ContractType" fetchType="LAZY" name="contractType" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.WorkingDay" fetchType="LAZY" name="workingDay" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.RequestMotivation" fetchType="LAZY" name="motive" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="requirements" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.Gear" fetchType="LAZY" name="gears" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="observations" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.discol.model.RequestMotivation">
+            <description>Motivo para le peticion de empleado</description>
+            <fields>
+                <field type="BOOLEAN" length="255" name="isNewCharge" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isEmployeeExpanding" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isLicence" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isNewProject" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isReplacement" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isEmployeeInhability" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.discol.model.RequestProcess">
+            <description>Recopilacion de los datos de peticion de empleados</description>
+            <fields>
+                <field type="OFFSETDATETIME" length="255" name="createdAt" nullable="true" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="modifyedAt" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="processId" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.discol.model.Approvations" fetchType="LAZY" name="approvations" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.discol.model.Status">
+            <fields>
+                <field type="STRING" length="255" name="statusValue" nullable="true" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="statusTime" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="responsible" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.discol.model.TimeScale">
+            <description>unidad y escala de tiempo (dias, senanas, meses, años)</description>
+            <fields>
+                <field type="INTEGER" length="255" name="cuantity" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="timePart" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.discol.model.WorkingDay">
+            <description>Tipo de jornada laboral</description>
+            <fields>
+                <field type="BOOLEAN" length="255" name="isFullTime" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isPartTime" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isDayTime" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>

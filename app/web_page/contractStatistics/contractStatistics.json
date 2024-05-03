@@ -1,0 +1,32 @@
+{
+  "id" : "contractStatistics",
+  "name" : "contractStatistics",
+  "type" : "page",
+  "uuid" : "c9d33edb-fffc-4d0b-84f1-aea8e8fae3e7",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1708357916133,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [ ]
+  ],
+  "variables" : { },
+  "assets" : [
+    {
+      "id" : "ba8c59a8-4a18-493b-a83c-9cb276ee99ba",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "30ece2ba-1c0a-44c6-bf31-30cbb155ceed",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}

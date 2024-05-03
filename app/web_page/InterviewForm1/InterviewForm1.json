@@ -1,0 +1,434 @@
+{
+  "id" : "InterviewForm1",
+  "name" : "InterviewForm",
+  "type" : "form",
+  "uuid" : "42ebfb7e-ff3d-4669-9c87-9c16debb4ab5",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1708364524187,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "76b37972-903d-4982-926e-0c1bd9b45e16",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 1"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayName }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "5e320a33-d1a7-4fe2-84f8-f8827902e19c",
+              "hasValidationError" : false,
+              "id" : "pbTitle",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "allowHtml" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "label" : {
+                  "type" : "interpolation"
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayDescription }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "926ae624-984d-4c05-85f3-808ce30cb2ba",
+              "hasValidationError" : false,
+              "id" : "pbText",
+              "description" : ""
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "tabsContainer",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "vertical" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "tabs"
+          }
+        },
+        "reference" : "85be2e04-e729-435b-a40e-73f7375c9fd9",
+        "hasValidationError" : false,
+        "id" : "pbTabsContainer",
+        "tabList" : [
+          {
+            "type" : "tabContainer",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "title" : {
+                "type" : "interpolation",
+                "value" : "Descripción"
+              },
+              "active" : {
+                "type" : "variable"
+              }
+            },
+            "reference" : "dc7f8449-5ed1-4b13-942d-0178d408670c",
+            "hasValidationError" : false,
+            "id" : "pbTabContainer",
+            "container" : {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12
+              },
+              "propertyValues" : { },
+              "reference" : "88904f80-8543-454f-a5c4-3c56e7f82ea4",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [
+                  {
+                    "type" : "fragment",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      }
+                    },
+                    "reference" : "1362aab9-1f5c-40ad-8b89-82b5270cfecc",
+                    "hasValidationError" : false,
+                    "id" : "chargeDescriptionView",
+                    "binding" : { }
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "type" : "tabContainer",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "title" : {
+                "type" : "interpolation",
+                "value" : "Curriculums"
+              },
+              "active" : {
+                "type" : "variable"
+              }
+            },
+            "reference" : "c5af0616-3e23-4883-b909-9f4955fc236d",
+            "hasValidationError" : false,
+            "id" : "pbTabContainer",
+            "container" : {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12
+              },
+              "propertyValues" : { },
+              "reference" : "c509e1fb-06c3-4d44-b233-89c63828c82e",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [
+                  {
+                    "type" : "fragment",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      }
+                    },
+                    "reference" : "a77c6696-796e-485b-b1b8-63105cb52e42",
+                    "hasValidationError" : false,
+                    "id" : "curricullumsUpload",
+                    "binding" : { }
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  ],
+  "variables" : {
+    "task" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "curricullums" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.curricullums_ref.link}}"
+      ],
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : [
+        "\treturn {",
+        "\t\t//map interview variable to expected task contract input",
+        "\t\tinterviewInput: $data.chargedData.map( it => ({",
+        "\t\t\tapplicantPersistenceId: $data.interview.persistenceId,",
+        "\t\t\tid: it.interviewData.id,",
+        "\t\t\tpostulation: it.interviewData.postulation,",
+        "\t\t\tage: it.interviewData.age,",
+        "\t\t\tisPreviusEmployee: it.interviewData.isPreviusEmployee,",
+        "\t\t\tisHaveVehicle: it.interviewData.isHaveVehicle,",
+        "\t\t\tschoolarLevelRequired: it.interviewData.schoolarLevelRequired,",
+        "\t\t\texperienceRequired: it.interviewData.experienceRequired,",
+        "\t\t\tcompetencesRequired: it.interviewData.competencesRequired,",
+        "\t\t\ttechKnowledge: it.interviewData.techKnowledge,",
+        "\t\t\tadaptation: it.interviewData.adaptation,",
+        "\t\t\tobservations: it.interviewData.observations,",
+        "\t\t\tisSelected: it.interviewData.isSelected,",
+        "\t\t\tinterviewer: $data.session.user_name",
+        "\t\t})),",
+        "\t\tresponsible: $data.session.user_name",
+        "\t}"
+      ],
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}/context"
+      ],
+      "exposed" : false
+    },
+    "interview" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.interview_ref.link}}"
+      ],
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : [
+        "id"
+      ],
+      "exposed" : false
+    },
+    "chargedData" : {
+      "type" : "expression",
+      "value" : [
+        "return $data.curricullums.map((curr, index) =>{",
+        "    curr.document = $data.context.document_ref[index];",
+        "    curr.interviewData = {",
+        "        applicantPersistenceId: \"\",",
+        "        id: \"\",",
+        "        postulation: \"\",",
+        "        age: 0,",
+        "        isPreviusEmployee: false,",
+        "        isHaveVehicle: false,",
+        "        schoolarLevelRequired: \"\",",
+        "        experienceRequired: \"\",",
+        "        competencesRequired: \"\",",
+        "        techKnowledge: \"\",",
+        "        adaptation: \"\",",
+        "        observations: \"\",",
+        "        isSelected: false,",
+        "        interviewer: \"\"",
+        "    }",
+        "    ",
+        "    return curr",
+        "})"
+      ],
+      "exposed" : false
+    },
+    "postulationType" : {
+      "type" : "json",
+      "value" : [
+        "[\"interna\", \"externa\"]"
+      ],
+      "exposed" : false
+    },
+    "session" : {
+      "type" : "url",
+      "value" : [
+        "../API/system/session/unusedId"
+      ],
+      "exposed" : false
+    }
+  },
+  "assets" : [
+    {
+      "id" : "a41d98b6-c338-4b64-aa44-25e60d72cd9a",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "87735fb8-c0d9-4814-82a8-192d1161da90",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}

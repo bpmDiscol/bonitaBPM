@@ -1,0 +1,342 @@
+{
+  "id" : "graphStatistics",
+  "name" : "graphStatistics",
+  "type" : "page",
+  "uuid" : "18087cc6-e713-44ab-897c-2e750a50fcf0",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1708366316395,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : "bg-info"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Fuentes de donde salen los candidatos"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "d23b7123-bd7c-4ff8-b1ad-656f1b344a8a",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "Doughnut"
+          },
+          "data" : {
+            "type" : "expression",
+            "value" : "jobsOrigin.data"
+          },
+          "labels" : {
+            "type" : "expression",
+            "value" : "jobsOrigin.titles"
+          },
+          "setLabels" : {
+            "type" : "constant",
+            "value" : [
+              "Default set label"
+            ]
+          },
+          "legendHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "colors" : {
+            "type" : "constant"
+          },
+          "options" : {
+            "type" : "constant"
+          }
+        },
+        "reference" : "231013ff-0990-4d5b-8d81-6de10618efe1",
+        "hasValidationError" : false,
+        "id" : "pbChart"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Tipos de contratos"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "787ae0a4-ece6-4bd8-9b9a-ae5e9744ae6c",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "Doughnut"
+          },
+          "data" : {
+            "type" : "expression",
+            "value" : "contractTypes.data"
+          },
+          "labels" : {
+            "type" : "expression",
+            "value" : "contractTypes.titles"
+          },
+          "setLabels" : {
+            "type" : "constant",
+            "value" : [
+              "Default set label"
+            ]
+          },
+          "legendHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "colors" : {
+            "type" : "constant"
+          },
+          "options" : {
+            "type" : "constant"
+          }
+        },
+        "reference" : "ed53a616-8a64-42f3-9a79-f705a9b736a9",
+        "hasValidationError" : false,
+        "id" : "pbChart"
+      }
+    ]
+  ],
+  "variables" : {
+    "animajobsCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Animajobs\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "contractTypes" : {
+      "type" : "expression",
+      "value" : [
+        "return {",
+        "    data:[",
+        "        $data.labourContract.length,",
+        "        $data.undefinedContract.length,",
+        "        $data.fixedTermContract.length,",
+        "        $data.learningContract.length",
+        "    ],",
+        "    titles:[\"Obra/Labor\", \"Indefinido\", \"Termino Fijo\", \"Aprendizaje\"]",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "facebookCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Facebook\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "fixedTermContract" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByIsFixedTerm [com.discol.model.ContractType]\",\"businessObjectName\":\"ContractType\",\"query\":{\"name\":\"findByIsFixedTerm\",\"displayName\":\"findByIsFixedTerm\"},\"id\":\"com.discol.model.ContractType\",\"filters\":[{\"name\":\"isFixedTerm\",\"type\":\"BOOLEAN\",\"collection\":false,\"value\":\"true\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "indeedCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Indeed\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "infoempleoCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Infoempleo\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "infoJobsCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"InfoJobs\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "jobsOrigin" : {
+      "type" : "expression",
+      "value" : [
+        "return {",
+        "    data:[",
+        "        $data.twitterCandidates.length, ",
+        "        $data.facebookCandidates.length, ",
+        "        $data.lindkedInCandidates.length, ",
+        "        $data.indeedCandidates.length, ",
+        "        $data.infoJobsCandidates.length, ",
+        "        $data.animajobsCandidates.length, ",
+        "        $data.trabajandoCandidates.length, ",
+        "        $data.infoempleoCandidates.length, ",
+        "        $data.ningunaCandidates.length",
+        "    ],",
+        "    titles: [\"Twitter\", \"Facebook\", \"LindkedIn\", \"Indeed\", \"InfoJobs\", \"Animajobs\", \"Trabajando\", \"Infoempleo\", \"Ninguna de las anteriores\"]",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "labourContract" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByIsContractedLabor [com.discol.model.ContractType]\",\"businessObjectName\":\"ContractType\",\"query\":{\"name\":\"findByIsContractedLabor\",\"displayName\":\"findByIsContractedLabor\"},\"id\":\"com.discol.model.ContractType\",\"filters\":[{\"name\":\"isContractedLabor\",\"type\":\"BOOLEAN\",\"collection\":false,\"value\":\"true\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "learningContract" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByIsLearning [com.discol.model.ContractType]\",\"businessObjectName\":\"ContractType\",\"query\":{\"name\":\"findByIsLearning\",\"displayName\":\"findByIsLearning\"},\"id\":\"com.discol.model.ContractType\",\"filters\":[{\"name\":\"isLearning\",\"type\":\"BOOLEAN\",\"collection\":false,\"value\":\"true\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "lindkedInCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"LindkedIn\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "ningunaCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Ninguna de las anteriores\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "trabajandoCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Trabajando\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "twitterCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Twitter\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "undefinedContract" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByIsUndefined [com.discol.model.ContractType]\",\"businessObjectName\":\"ContractType\",\"query\":{\"name\":\"findByIsUndefined\",\"displayName\":\"findByIsUndefined\"},\"id\":\"com.discol.model.ContractType\",\"filters\":[{\"name\":\"isUndefined\",\"type\":\"BOOLEAN\",\"collection\":false,\"value\":\"true\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    }
+  },
+  "assets" : [
+    {
+      "id" : "f88acb9a-cb82-4462-8863-3fea91bff34e",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "2c14036a-fa41-4f11-a80e-ddb629aac440",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="employeeRequest" version="1.0" profile="User" homePage="tasks" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_themeBonita">
+        <displayName>Peticion de empleado</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_tasklist" token="tasks"/>
+            <applicationPage customPage="custompage_processlistBonita" token="process"/>
+            <applicationPage customPage="custompage_contractProcesses" token="contracts"/>
+            <applicationPage customPage="custompage_estadisticas" token="estadisticas"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="tasks">
+                <displayName>Tareas</displayName>
+            </applicationMenu>
+            <applicationMenu applicationPage="process">
+                <displayName>Procesos</displayName>
+            </applicationMenu>
+            <applicationMenu applicationPage="contracts">
+                <displayName>Contrataciones</displayName>
+            </applicationMenu>
+            <applicationMenu applicationPage="estadisticas">
+                <displayName>Estadisticas</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>

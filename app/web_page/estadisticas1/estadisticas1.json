@@ -1,0 +1,500 @@
+{
+  "id" : "estadisticas1",
+  "name" : "estadisticas",
+  "type" : "page",
+  "uuid" : "fcbbb395-5e9e-4061-a95a-1e27d0a5a196",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1712357431487,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "¿De donde provienen los candidatos?"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 3"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "ffbd9266-6644-48be-b27f-4a62e763f3ef",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "c3659f61-b1ff-4284-82b8-f10f4f452bbb",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 9,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : "bg-primary"
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "Pie"
+                },
+                "data" : {
+                  "type" : "expression",
+                  "value" : "jobsOrigins.data"
+                },
+                "labels" : {
+                  "type" : "expression",
+                  "value" : "jobsOrigins.titles"
+                },
+                "setLabels" : {
+                  "type" : "constant",
+                  "value" : [
+                    "Default set label"
+                  ]
+                },
+                "legendHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "colors" : {
+                  "type" : "constant"
+                },
+                "options" : {
+                  "type" : "constant"
+                }
+              },
+              "reference" : "f14c589b-a527-4ab8-a553-461e77ec3a72",
+              "hasValidationError" : false,
+              "id" : "pbChart"
+            },
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 3,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Default label"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "Twitter: {{twitterCandidates.length}} <br>\nFacebook: {{facebookCandidates.length}} <br>\nLinkedin: {{lindkedInCandidates.length}}<br>\nIndeed: {{indeedCandidates.length}}<br>\nInfoJobs: {{infoJobsCandidates.length}}<br>\nAnimaJobs: {{animaJobsCandidates.length}}<br>\nInfoempleo: {{infoempleoCandidates.length}}<br>\nTrabajando: {{trabajandoCandidates.length}}<br>\nNinguna de las anteriores: {{ningunaCandidates.length}}<br>"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                }
+              },
+              "reference" : "8d76080f-fb58-438f-b512-63f5f987b926",
+              "hasValidationError" : false,
+              "id" : "pbText"
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Tipos de contratos"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "8d2bad6e-6ba1-489c-aea7-264e0328f140",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "6b57a71e-0c83-41d9-a5a0-8dd5a8d8b95c",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 9,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "Pie"
+                },
+                "data" : {
+                  "type" : "expression",
+                  "value" : "contractsTypes.data"
+                },
+                "labels" : {
+                  "type" : "expression",
+                  "value" : "contractsTypes.titles"
+                },
+                "setLabels" : {
+                  "type" : "constant",
+                  "value" : [
+                    "Default set label"
+                  ]
+                },
+                "legendHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "colors" : {
+                  "type" : "constant"
+                },
+                "options" : {
+                  "type" : "constant"
+                }
+              },
+              "reference" : "73ced859-6121-4d2d-a90f-de9216c43f7d",
+              "hasValidationError" : false,
+              "id" : "pbChart"
+            },
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 3,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Default label"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "Obra/Labor: {{labourContract.length}}<br>\nTermino Fijo: {{fixedTermContract.length}}<br>\nIndefinido: {{undefinedContract.length}}<br>\nAprendizaje: {{learningContract.length}}<br>"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                }
+              },
+              "reference" : "f125d214-1518-441c-b474-3d9fa84504ce",
+              "hasValidationError" : false,
+              "id" : "pbText"
+            }
+          ]
+        ]
+      }
+    ]
+  ],
+  "variables" : {
+    "twitterCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Twitter\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "facebookCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Facebook\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "lindkedInCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"LindkedIn\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "indeedCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Indeed\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "infoJobsCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"InfoJobs\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "animajobsCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Animajobs\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "trabajandoCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Trabajando\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "infoempleoCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Infoempleo\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "ningunaCandidates" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByFoundBy [com.discol.model.Curricullums]\",\"businessObjectName\":\"Curricullums\",\"query\":{\"name\":\"findByFoundBy\",\"displayName\":\"findByFoundBy\"},\"id\":\"com.discol.model.Curricullums\",\"filters\":[{\"name\":\"foundBy\",\"type\":\"STRING\",\"collection\":false,\"value\":\"Ninguna de las anteriores\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "jobsOrigins" : {
+      "type" : "expression",
+      "value" : [
+        "return {",
+        "    data:[",
+        "        $data.twitterCandidates.length, ",
+        "        $data.facebookCandidates.length, ",
+        "        $data.lindkedInCandidates.length, ",
+        "        $data.indeedCandidates.length, ",
+        "        $data.infoJobsCandidates.length, ",
+        "        $data.animajobsCandidates.length, ",
+        "        $data.trabajandoCandidates.length, ",
+        "        $data.infoempleoCandidates.length, ",
+        "        $data.ningunaCandidates.length",
+        "    ],",
+        "    titles: [\"Twitter\", \"Facebook\", \"LindkedIn\", \"Indeed\", \"InfoJobs\", \"Animajobs\", \"Trabajando\", \"Infoempleo\", \"Ninguna de las anteriores\"]",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "labourContract" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByIsContractedLabor [com.discol.model.ContractType]\",\"businessObjectName\":\"ContractType\",\"query\":{\"name\":\"findByIsContractedLabor\",\"displayName\":\"findByIsContractedLabor\"},\"id\":\"com.discol.model.ContractType\",\"filters\":[{\"name\":\"isContractedLabor\",\"type\":\"BOOLEAN\",\"collection\":false,\"value\":\"true\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "undefinedContract" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByIsUndefined [com.discol.model.ContractType]\",\"businessObjectName\":\"ContractType\",\"query\":{\"name\":\"findByIsUndefined\",\"displayName\":\"findByIsUndefined\"},\"id\":\"com.discol.model.ContractType\",\"filters\":[{\"name\":\"isUndefined\",\"type\":\"BOOLEAN\",\"collection\":false,\"value\":\"true\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "fixedTermContract" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByIsFixedTerm [com.discol.model.ContractType]\",\"businessObjectName\":\"ContractType\",\"query\":{\"name\":\"findByIsFixedTerm\",\"displayName\":\"findByIsFixedTerm\"},\"id\":\"com.discol.model.ContractType\",\"filters\":[{\"name\":\"isFixedTerm\",\"type\":\"BOOLEAN\",\"collection\":false,\"value\":\"true\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "learningContract" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByIsLearning [com.discol.model.ContractType]\",\"businessObjectName\":\"ContractType\",\"query\":{\"name\":\"findByIsLearning\",\"displayName\":\"findByIsLearning\"},\"id\":\"com.discol.model.ContractType\",\"filters\":[{\"name\":\"isLearning\",\"type\":\"BOOLEAN\",\"collection\":false,\"value\":\"true\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "contractsTypes" : {
+      "type" : "expression",
+      "value" : [
+        "return {",
+        "    data:[",
+        "        $data.labourContract.length,",
+        "        $data.undefinedContract.length,",
+        "        $data.fixedTermContract.length,",
+        "        $data.learningContract.length",
+        "    ],",
+        "    titles:[\"Obra/Labor\", \"Indefinido\", \"Termino Fijo\", \"Aprendizaje\"]",
+        "}"
+      ],
+      "exposed" : false
+    }
+  },
+  "assets" : [
+    {
+      "id" : "af164a32-7d12-45f5-8137-8edb82daf083",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "4a15ebd2-4240-4f5c-af4a-02b187a84531",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}

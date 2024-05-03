@@ -1,0 +1,185 @@
+{
+  "id" : "userConcept",
+  "name" : "userConcept",
+  "type" : "form",
+  "uuid" : "8b740a01-2555-483f-9b76-62c7ac6b74cf",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1708297050900,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [
+      {
+        "type" : "fragment",
+        "dimension" : {
+          "xs" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "ef57a025-4b8c-44bf-9aa4-310a970d3108",
+        "hasValidationError" : false,
+        "id" : "chargeDescription",
+        "binding" : { }
+      }
+    ]
+  ],
+  "variables" : {
+    "task" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}/context"
+      ],
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : [
+        "id"
+      ],
+      "exposed" : false
+    },
+    "session" : {
+      "type" : "url",
+      "value" : [
+        "../API/system/session/unusedId"
+      ],
+      "exposed" : false
+    },
+    "requestEmployeeData" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.requestEmployeeData_ref.link}}"
+      ],
+      "exposed" : false
+    },
+    "requestEmployeeData_duration" : {
+      "type" : "url",
+      "value" : [
+        "{{requestEmployeeData|lazyRef:'duration'}}"
+      ],
+      "exposed" : false
+    },
+    "requestEmployeeData_bonusesFrecuency" : {
+      "type" : "url",
+      "value" : [
+        "{{requestEmployeeData|lazyRef:'bonusesFrecuency'}}"
+      ],
+      "exposed" : false
+    },
+    "requestEmployeeData_contractType" : {
+      "type" : "url",
+      "value" : [
+        "{{requestEmployeeData|lazyRef:'contractType'}}"
+      ],
+      "exposed" : false
+    },
+    "requestEmployeeData_workingDay" : {
+      "type" : "url",
+      "value" : [
+        "{{requestEmployeeData|lazyRef:'workingDay'}}"
+      ],
+      "exposed" : false
+    },
+    "requestEmployeeData_motive" : {
+      "type" : "url",
+      "value" : [
+        "{{requestEmployeeData|lazyRef:'motive'}}"
+      ],
+      "exposed" : false
+    },
+    "requestEmployeeData_gears" : {
+      "type" : "url",
+      "value" : [
+        "{{requestEmployeeData|lazyRef:'gears'}}"
+      ],
+      "exposed" : false
+    },
+    "revisionOutput" : {
+      "type" : "expression",
+      "value" : [
+        "return {",
+        "\tadminConcept: $data.answer,",
+        "\tadminDirector: $data.session.user_name,",
+        "\tadminResponse: \"revision\"",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "answer" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "rejectOutput" : {
+      "type" : "expression",
+      "value" : [
+        "return {",
+        "\tconcept: $data.answer,",
+        "\tresponsible: $data.session.user_name,",
+        "\tresponse: \"reject\"",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "approvedOutput" : {
+      "type" : "expression",
+      "value" : [
+        "return {",
+        "\tconcept: $data.answer,",
+        "\tresponsible: $data.session.user_name,",
+        "\tresponse: \"approved\"",
+        "}"
+      ],
+      "exposed" : false
+    }
+  },
+  "assets" : [
+    {
+      "id" : "8eaea18a-9986-41a5-884e-3d79f38ff06c",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "488e4d96-7ca2-4c5f-9d47-d3ecd163ed53",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}
