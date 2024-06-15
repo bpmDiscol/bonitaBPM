@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:actormapping="http://www.bonitasoft.org/ns/actormapping/6.0" xmlns:configuration="http://www.bonitasoft.org/ns/bpm/configuration" xmlns:connectorconfiguration="http://www.bonitasoft.org/model/connector/configuration" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
   <process:MainProcess xmi:id="_FA-AIMFiEe606YmA8peIWQ" name="EmployeeRequest" bonitaModelVersion="8">
-    <elements xmi:type="process:Pool" xmi:id="_FA-AIcFiEe606YmA8peIWQ" documentation="Proceso que permite adquirir talento humano depensiendo de las necesidades. Solo puede ser iniciado por un lider" name="Petición de personal" displayName="employee_request">
+    <elements xmi:type="process:Pool" xmi:id="_FA-AIcFiEe606YmA8peIWQ" documentation="Proceso que permite adquirir talento humano depensiendo de las necesidades. Solo puede ser iniciado por un lider" name="Requisición de personal" displayName="employee_request">
       <elements xmi:type="process:Lane" xmi:id="_FA-AIsFiEe606YmA8peIWQ" name="Lider" actor="_FA-AO8FiEe606YmA8peIWQ">
         <elements xmi:type="process:StartEvent" xmi:id="_FA-AI8FiEe606YmA8peIWQ" documentation="Pedido oficial para contratar nuevos empleados dentro de la rama administrada por el Lider" name="employee_request_start" outgoing="_FA-AOMFiEe606YmA8peIWQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_FA-AJMFiEe606YmA8peIWQ" name="Solicitud de personal" content="Solicitud de personal" returnTypeFixed="true"/>
@@ -101,7 +101,7 @@
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_y7KmcMFjEe606YmA8peIWQ" name="Dir. Administrativo" actor="_bq3IsMFjEe606YmA8peIWQ">
         <elements xmi:type="process:Task" xmi:id="_FA-AJ8FiEe606YmA8peIWQ" documentation="Concepto Administrativo" name="employee_request_adm" outgoing="_CrAGoBg7Ee-nne5-2BOVKA" incoming="_FA-AOMFiEe606YmA8peIWQ" overrideActorsOfTheLane="false">
-          <dynamicLabel xmi:type="expression:Expression" xmi:id="_FA-AKMFiEe606YmA8peIWQ" name="Solicitud de personal" content="Solicitud de personal" returnTypeFixed="true"/>
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_FA-AKMFiEe606YmA8peIWQ" name="Requisición de personal" content="Requisición de personal" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_FA-AKcFiEe606YmA8peIWQ" name="Respuesta a peticion de Lider" content="Respuesta a peticion de Lider" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_FA-AKsFiEe606YmA8peIWQ" name="" content="" returnTypeFixed="true"/>
           <operations xmi:type="expression:Operation" xmi:id="_pYrHkMxbEe6Xha0FHMtBrQ">
@@ -405,7 +405,7 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_7_5NZMXkEe68tbVg37datQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:Task" xmi:id="_p7XbcM38Ee6jSo5UBG04CQ" documentation="Selección de perfiles para el cargo" name="load_curricullum" outgoing="_qi4TsM6GEe6NDtW6GSj43w" incoming="_pXvxAM38Ee6jSo5UBG04CQ" overrideActorsOfTheLane="false">
-          <dynamicLabel xmi:type="expression:Expression" xmi:id="_pXc2Ec38Ee6jSo5UBG04CQ" name="Solicitud de personal" content="Solicitud de personal" returnTypeFixed="true"/>
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_pXc2Ec38Ee6jSo5UBG04CQ" name="Requisición de personal" content="Requisición de personal" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_pXc2EM38Ee6jSo5UBG04CQ" name="Selección de perfiles" content="Selección de perfiles" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_pXc2Es38Ee6jSo5UBG04CQ" name="" content="" returnTypeFixed="true"/>
           <operations xmi:type="expression:Operation" xmi:id="_6qCER84UEe6jSo5UBG04CQ">
@@ -480,7 +480,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_p7hMc838Ee6jSo5UBG04CQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:Task" xmi:id="_4T4KYM4CEe6jSo5UBG04CQ" documentation="Revisión preliminar de solicitud" name="employee_request_hr" outgoing="_rF38QMXkEe68tbVg37datQ" incoming="_Yg-pcMX_Ee68tbVg37datQ" overrideActorsOfTheLane="false">
-          <dynamicLabel xmi:type="expression:Expression" xmi:id="_4T4KYc4CEe6jSo5UBG04CQ" name="Solicitud de personal" content="Solicitud de personal" returnTypeFixed="true"/>
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_4T4KYc4CEe6jSo5UBG04CQ" name="Requisición de personal" content="Requisición de personal" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_4T4KYs4CEe6jSo5UBG04CQ" name="Respuesta a concepto administrativo" content="Respuesta a concepto administrativo" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_4T4KY84CEe6jSo5UBG04CQ" name="" content="" returnTypeFixed="true"/>
           <operations xmi:type="expression:Operation" xmi:id="_4T4KZM4CEe6jSo5UBG04CQ">
@@ -577,7 +577,7 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_KelTw85lEe6jSo5UBG04CQ" name="" content="" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:Task" xmi:id="_rWJjsM6GEe6NDtW6GSj43w" documentation="Selección de personal por entrevistas" name="interview" outgoing="_xL-4MM6SEe6NDtW6GSj43w" incoming="_qi4TsM6GEe6NDtW6GSj43w" overrideActorsOfTheLane="false">
-          <dynamicLabel xmi:type="expression:Expression" xmi:id="_qibnwc6GEe6NDtW6GSj43w" name="Solicitud de personal" content="Solicitud de personal" returnTypeFixed="true"/>
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_qibnwc6GEe6NDtW6GSj43w" name="Requisición de personal" content="Requisición de personal" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_qibnwM6GEe6NDtW6GSj43w" name="Entrevistas" content="Entrevistas" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_qibnws6GEe6NDtW6GSj43w" name="" content="" returnTypeFixed="true"/>
           <operations xmi:type="expression:Operation" xmi:id="_y-GTcM79Ee6NDtW6GSj43w">
@@ -708,7 +708,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_rWJjvM6GEe6NDtW6GSj43w" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:Task" xmi:id="_2PXSgM6SEe6NDtW6GSj43w" name="legal_background" outgoing="_i_fngM6WEe6NDtW6GSj43w" incoming="_xL-4MM6SEe6NDtW6GSj43w" overrideActorsOfTheLane="false">
-          <dynamicLabel xmi:type="expression:Expression" xmi:id="_xLr9Qc6SEe6NDtW6GSj43w" name="employee_request_background" content="employee_request_background" returnTypeFixed="true"/>
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_xLr9Qc6SEe6NDtW6GSj43w" name="Requisición de personal" content="Requisición de personal" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_xLr9QM6SEe6NDtW6GSj43w" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_xLr9Qs6SEe6NDtW6GSj43w" name="" content="" returnTypeFixed="true"/>
           <operations xmi:type="expression:Operation" xmi:id="_vkIXUM6XEe6NDtW6GSj43w">
