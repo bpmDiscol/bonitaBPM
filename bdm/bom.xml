@@ -43,7 +43,7 @@
                 <field type="STRING" length="255" name="applicantMidname" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="applicantLastname" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="foundBy" nullable="true" collection="false"/>
-                <field type="TEXT" length="255" name="document" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="fileId" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -69,20 +69,66 @@
         </businessObject>
         <businessObject qualifiedName="com.discol.model.Interview">
             <fields>
-                <field type="STRING" length="255" name="applicantPersistenceId" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="aboutBusinessBoss" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="aboutBusinessMotive" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="aboutBusinessName" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="academicLevel" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="age" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="applicationType" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="business_labour_1" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="business_labour_2" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="business_motive_1" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="business_motive_2" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="business_name_1" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="business_name_2" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="business_time_1" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="business_time_2" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="city" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="currentForm" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="expectedPosition" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="finalConcept" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="grade" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="id" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="postulation" nullable="true" collection="false"/>
-                <field type="INTEGER" length="255" name="age" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="interviewId" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isAboutBussiness" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isAboutFamily" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="isEvaluationControl" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="isEvaluationFocus" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="isEvaluationLearning" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="isEvaluationOrientation" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="isEvaluationSensibility" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isLicence" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="isPreviusEmployee" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="isHaveVehicle" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="schoolarLevelRequired" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="experienceRequired" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="competencesRequired" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="techKnowledge" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="adaptation" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="observations" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="isSelected" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="interviewer" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isSOAT" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isTecnomecanica" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isValidDocuments" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isValidLicence" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isVehicle" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="kinName" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="kinship" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="learningAdaptation" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="personalAnnotation" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="phone" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="requiredAcademic" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="requiredCompetences" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="requiredExperience" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="residence" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="retirementDate" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="retirementMotive" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="revisionVial" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="salaryGoal" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="selected" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="sizePants" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="sizeShirt" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="sizeShoes" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="status" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="study" nullable="true" collection="true"/>
+                <field type="STRING" length="255" name="systemKnown" nullable="true" collection="true"/>
+                <field type="TEXT" length="255" name="tecnicalEvaluation" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="tecnicalknowledge" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="vehicle_owner_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="vehicle_owner_name" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="vechiclePlate" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
