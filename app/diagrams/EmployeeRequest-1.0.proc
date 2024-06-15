@@ -412,22 +412,12 @@
             <leftOperand xmi:type="expression:Expression" xmi:id="_6qCESM4UEe6jSo5UBG04CQ" name="curricullums" content="curricullums" type="TYPE_VARIABLE" returnType="java.util.List">
               <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_6qCESc4UEe6jSo5UBG04CQ" name="curricullums" multiple="true" dataType="_FA-AVMFiEe606YmA8peIWQ" className="com.discol.model.Curricullums"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_6qCESs4UEe6jSo5UBG04CQ" name="curricullumsInput" content="def curricullumsList = []&#xD;&#xA;//For each item collected in multiple input&#xD;&#xA;curricullumsInput.each{&#xD;&#xA;&#x9;//Add Curricullums instance&#xD;&#xA;&#x9;curricullumsList.add({ currentCurricullumsInput ->&#xD;&#xA;&#x9;&#x9;def curricullumsVar = curricullums.find { it.persistenceId.toString() == currentCurricullumsInput.persistenceId_string} ?: new com.discol.model.Curricullums()&#xD;&#xA;&#x9;&#x9;curricullumsVar.applicantName = currentCurricullumsInput.applicantName&#xD;&#xA;&#x9;&#x9;curricullumsVar.applicantMidname = currentCurricullumsInput.applicantMidname&#xD;&#xA;&#x9;&#x9;curricullumsVar.applicantLastname = currentCurricullumsInput.applicantLastname&#xD;&#xA;&#x9;&#x9;curricullumsVar.foundBy = currentCurricullumsInput.foundBy&#xD;&#xA;&#x9;&#x9;return curricullumsVar&#xD;&#xA;&#x9;}(it))&#xD;&#xA;}&#xD;&#xA;return curricullumsList" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.List">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_haLXsM5jEe6jSo5UBG04CQ" name="curricullumsInput" type="COMPLEX" multiple="true" createMode="false"/>
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_haNz8M5jEe6jSo5UBG04CQ" name="curricullums" multiple="true" dataType="_FA-AVMFiEe606YmA8peIWQ" className="com.discol.model.Curricullums"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_6qCESs4UEe6jSo5UBG04CQ" name="curricullumsInput" content="def curricullumsList = []&#xD;&#xA;//For each item collected in multiple input&#xD;&#xA;curricullumsInput.each{&#xD;&#xA;&#x9;//Add Curricullums instance&#xD;&#xA;&#x9;curricullumsList.add({ currentCurricullumsInput ->&#xD;&#xA;&#x9;&#x9;def curricullumsVar = new com.discol.model.Curricullums()&#xD;&#xA;&#x9;&#x9;curricullumsVar.applicantName = currentCurricullumsInput.applicantName&#xD;&#xA;&#x9;&#x9;curricullumsVar.applicantMidname = currentCurricullumsInput.applicantMidname&#xD;&#xA;&#x9;&#x9;curricullumsVar.applicantLastname = currentCurricullumsInput.applicantLastname&#xD;&#xA;&#x9;&#x9;curricullumsVar.foundBy = currentCurricullumsInput.foundBy&#xD;&#xA;&#x9;&#x9;curricullumsVar.fileId = currentCurricullumsInput.fileId&#xD;&#xA;&#x9;&#x9;return curricullumsVar&#xD;&#xA;&#x9;}(it))&#xD;&#xA;}&#xD;&#xA;return curricullumsList" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.List">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_6nqL4Cq9Ee-VCNkuFEuxWQ" name="curricullumsInput" type="COMPLEX" multiple="true" createMode="false"/>
             </rightOperand>
             <operator xmi:type="expression:Operator" xmi:id="_6qCETc4UEe6jSo5UBG04CQ" type="ASSIGNMENT" expression="addAll">
               <inputTypes>java.util.Collection</inputTypes>
             </operator>
-          </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_7bR0AM5hEe6jSo5UBG04CQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_7bR0Ac5hEe6jSo5UBG04CQ" name="document" content="document" type="DOCUMENT_REF_TYPE" returnType="java.util.List">
-              <referencedElements xmi:type="process:Document" xmi:id="_7bR0As5hEe6jSo5UBG04CQ" name="document" multiple="true"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_7bR0A85hEe6jSo5UBG04CQ" name="documentDocumentInput" content="documentDocumentInput" type="TYPE_CONTRACT_INPUT" returnType="java.util.List">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_7bR0BM5hEe6jSo5UBG04CQ" name="documentDocumentInput" type="FILE" multiple="true" createMode="false"/>
-            </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_7bR0Bc5hEe6jSo5UBG04CQ" type="DOCUMENT_LIST_SET"/>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_sSjd8M78Ee6NDtW6GSj43w">
             <leftOperand xmi:type="expression:Expression" xmi:id="_sSjd8c78Ee6NDtW6GSj43w" name="requestProcess" content="requestProcess" type="TYPE_VARIABLE" returnType="com.discol.model.RequestProcess">
@@ -475,13 +465,14 @@
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_p7hMcM38Ee6jSo5UBG04CQ">
             <inputs xmi:type="process:ContractInput" xmi:id="_6qCEQM4UEe6jSo5UBG04CQ" name="curricullumsInput" type="COMPLEX" multiple="true" dataReference="curricullums" createMode="false">
-              <inputs xmi:type="process:ContractInput" xmi:id="_6qCEQc4UEe6jSo5UBG04CQ" name="persistenceId_string" createMode="false"/>
               <inputs xmi:type="process:ContractInput" xmi:id="_6qCEQs4UEe6jSo5UBG04CQ" name="applicantName" createMode="false"/>
               <inputs xmi:type="process:ContractInput" xmi:id="_6qCEQ84UEe6jSo5UBG04CQ" name="applicantMidname" createMode="false"/>
               <inputs xmi:type="process:ContractInput" xmi:id="_6qCERM4UEe6jSo5UBG04CQ" name="applicantLastname" createMode="false"/>
               <inputs xmi:type="process:ContractInput" xmi:id="_6qCERc4UEe6jSo5UBG04CQ" name="foundBy" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_cQYrcCq9Ee-VCNkuFEuxWQ" name="fileId">
+                <mapping xmi:type="process:ContractInputMapping" xmi:id="_cQYrcSq9Ee-VCNkuFEuxWQ"/>
+              </inputs>
             </inputs>
-            <inputs xmi:type="process:ContractInput" xmi:id="_7bE_sM5hEe6jSo5UBG04CQ" name="documentDocumentInput" type="FILE" multiple="true" dataReference="document" createMode="false"/>
             <inputs xmi:type="process:ContractInput" xmi:id="_AiAZ0M79Ee6NDtW6GSj43w" name="responsible">
               <mapping xmi:type="process:ContractInputMapping" xmi:id="_AiAZ0c79Ee6NDtW6GSj43w"/>
             </inputs>
@@ -589,18 +580,6 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_qibnwc6GEe6NDtW6GSj43w" name="Solicitud de personal" content="Solicitud de personal" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_qibnwM6GEe6NDtW6GSj43w" name="Entrevistas" content="Entrevistas" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_qibnws6GEe6NDtW6GSj43w" name="" content="" returnTypeFixed="true"/>
-          <operations xmi:type="expression:Operation" xmi:id="_-aPfwM6GEe6NDtW6GSj43w">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-aPfwc6GEe6NDtW6GSj43w" name="interview" content="interview" type="TYPE_VARIABLE" returnType="java.util.List">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-aPfws6GEe6NDtW6GSj43w" name="interview" multiple="true" dataType="_FA-AVMFiEe606YmA8peIWQ" className="com.discol.model.Interview"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-aPfw86GEe6NDtW6GSj43w" name="interviewInput" content="def interviewList = []&#xD;&#xA;//For each item collected in multiple input&#xD;&#xA;interviewInput.each{&#xD;&#xA;&#x9;//Add Interview instance&#xD;&#xA;&#x9;interviewList.add({ currentInterviewInput ->&#xD;&#xA;&#x9;&#x9;def interviewVar = interview.find { it.persistenceId.toString() == currentInterviewInput.persistenceId_string} ?: new com.discol.model.Interview()&#xD;&#xA;&#x9;&#x9;interviewVar.applicantPersistenceId = currentInterviewInput.applicantPersistenceId&#xD;&#xA;&#x9;&#x9;interviewVar.id = currentInterviewInput.id&#xD;&#xA;&#x9;&#x9;interviewVar.postulation = currentInterviewInput.postulation&#xD;&#xA;&#x9;&#x9;interviewVar.age = currentInterviewInput.age&#xD;&#xA;&#x9;&#x9;interviewVar.isPreviusEmployee = currentInterviewInput.isPreviusEmployee&#xD;&#xA;&#x9;&#x9;interviewVar.isHaveVehicle = currentInterviewInput.isHaveVehicle&#xD;&#xA;&#x9;&#x9;interviewVar.schoolarLevelRequired = currentInterviewInput.schoolarLevelRequired&#xD;&#xA;&#x9;&#x9;interviewVar.experienceRequired = currentInterviewInput.experienceRequired&#xD;&#xA;&#x9;&#x9;interviewVar.competencesRequired = currentInterviewInput.competencesRequired&#xD;&#xA;&#x9;&#x9;interviewVar.techKnowledge = currentInterviewInput.techKnowledge&#xD;&#xA;&#x9;&#x9;interviewVar.adaptation = currentInterviewInput.adaptation&#xD;&#xA;&#x9;&#x9;interviewVar.observations = currentInterviewInput.observations&#xD;&#xA;&#x9;&#x9;interviewVar.isSelected = currentInterviewInput.isSelected&#xD;&#xA;&#x9;&#x9;interviewVar.interviewer = currentInterviewInput.interviewer&#xD;&#xA;&#x9;&#x9;return interviewVar&#xD;&#xA;&#x9;}(it))&#xD;&#xA;}&#xD;&#xA;return interviewList" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.List">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-aPfxM6GEe6NDtW6GSj43w" name="interviewInput" type="COMPLEX" multiple="true"/>
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-aPfxc6GEe6NDtW6GSj43w" name="interview" multiple="true" dataType="_FA-AVMFiEe606YmA8peIWQ" className="com.discol.model.Interview"/>
-            </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-aPfxs6GEe6NDtW6GSj43w" type="ASSIGNMENT" expression="addAll">
-              <inputTypes>java.util.Collection</inputTypes>
-            </operator>
-          </operations>
           <operations xmi:type="expression:Operation" xmi:id="_y-GTcM79Ee6NDtW6GSj43w">
             <leftOperand xmi:type="expression:Expression" xmi:id="_y-GTcc79Ee6NDtW6GSj43w" name="requestProcess" content="requestProcess" type="TYPE_VARIABLE" returnType="com.discol.model.RequestProcess">
               <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_zvkzsM79Ee6NDtW6GSj43w" name="requestProcess" dataType="_FA-AVMFiEe606YmA8peIWQ" className="com.discol.model.RequestProcess"/>
@@ -637,34 +616,94 @@
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_7vpgLyrDEe-VCNkuFEuxWQ">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_7vpgMCrDEe-VCNkuFEuxWQ" name="interview" content="interview" type="TYPE_VARIABLE" returnType="java.util.List">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_7vpgMSrDEe-VCNkuFEuxWQ" name="interview" multiple="true" dataType="_FA-AVMFiEe606YmA8peIWQ" className="com.discol.model.Interview"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_7vpgMirDEe-VCNkuFEuxWQ" name="interviewInput" content="def interviewList = []&#xD;&#xA;//For each item collected in multiple input&#xD;&#xA;interviewInput.each{&#xD;&#xA;&#x9;//Add Interview instance&#xD;&#xA;&#x9;interviewList.add({ currentInterviewInput ->&#xD;&#xA;&#x9;&#x9;def interviewVar = new com.discol.model.Interview()&#xD;&#xA;&#x9;&#x9;interviewVar.aboutBusinessBoss = currentInterviewInput.aboutBusinessBoss&#xD;&#xA;&#x9;&#x9;interviewVar.aboutBusinessMotive = currentInterviewInput.aboutBusinessMotive&#xD;&#xA;&#x9;&#x9;interviewVar.aboutBusinessName = currentInterviewInput.aboutBusinessName&#xD;&#xA;&#x9;&#x9;interviewVar.academicLevel = currentInterviewInput.academicLevel&#xD;&#xA;&#x9;&#x9;interviewVar.age = currentInterviewInput.age&#xD;&#xA;&#x9;&#x9;interviewVar.applicationType = currentInterviewInput.applicationType&#xD;&#xA;&#x9;&#x9;interviewVar.business_labour_1 = currentInterviewInput.business_labour_1&#xD;&#xA;&#x9;&#x9;interviewVar.business_labour_2 = currentInterviewInput.business_labour_2&#xD;&#xA;&#x9;&#x9;interviewVar.business_motive_1 = currentInterviewInput.business_motive_1&#xD;&#xA;&#x9;&#x9;interviewVar.business_motive_2 = currentInterviewInput.business_motive_2&#xD;&#xA;&#x9;&#x9;interviewVar.business_name_1 = currentInterviewInput.business_name_1&#xD;&#xA;&#x9;&#x9;interviewVar.business_name_2 = currentInterviewInput.business_name_2&#xD;&#xA;&#x9;&#x9;interviewVar.business_time_1 = currentInterviewInput.business_time_1&#xD;&#xA;&#x9;&#x9;interviewVar.business_time_2 = currentInterviewInput.business_time_2&#xD;&#xA;&#x9;&#x9;interviewVar.city = currentInterviewInput.city&#xD;&#xA;&#x9;&#x9;interviewVar.currentForm = currentInterviewInput.currentForm&#xD;&#xA;&#x9;&#x9;interviewVar.expectedPosition = currentInterviewInput.expectedPosition&#xD;&#xA;&#x9;&#x9;interviewVar.finalConcept = currentInterviewInput.finalConcept&#xD;&#xA;&#x9;&#x9;interviewVar.grade = currentInterviewInput.grade&#xD;&#xA;&#x9;&#x9;interviewVar.id = currentInterviewInput.id&#xD;&#xA;&#x9;&#x9;interviewVar.interviewId = currentInterviewInput.interviewId&#xD;&#xA;&#x9;&#x9;interviewVar.isAboutBussiness = currentInterviewInput.isAboutBussiness&#xD;&#xA;&#x9;&#x9;interviewVar.isAboutFamily = currentInterviewInput.isAboutFamily&#xD;&#xA;&#x9;&#x9;interviewVar.isEvaluationControl = currentInterviewInput.isEvaluationControl&#xD;&#xA;&#x9;&#x9;interviewVar.isEvaluationFocus = currentInterviewInput.isEvaluationFocus&#xD;&#xA;&#x9;&#x9;interviewVar.isEvaluationLearning = currentInterviewInput.isEvaluationLearning&#xD;&#xA;&#x9;&#x9;interviewVar.isEvaluationOrientation = currentInterviewInput.isEvaluationOrientation&#xD;&#xA;&#x9;&#x9;interviewVar.isEvaluationSensibility = currentInterviewInput.isEvaluationSensibility&#xD;&#xA;&#x9;&#x9;interviewVar.isLicence = currentInterviewInput.isLicence&#xD;&#xA;&#x9;&#x9;interviewVar.isPreviusEmployee = currentInterviewInput.isPreviusEmployee&#xD;&#xA;&#x9;&#x9;interviewVar.isSOAT = currentInterviewInput.isSOAT&#xD;&#xA;&#x9;&#x9;interviewVar.isTecnomecanica = currentInterviewInput.isTecnomecanica&#xD;&#xA;&#x9;&#x9;interviewVar.isValidDocuments = currentInterviewInput.isValidDocuments&#xD;&#xA;&#x9;&#x9;interviewVar.isValidLicence = currentInterviewInput.isValidLicence&#xD;&#xA;&#x9;&#x9;interviewVar.isVehicle = currentInterviewInput.isVehicle&#xD;&#xA;&#x9;&#x9;interviewVar.kinName = currentInterviewInput.kinName&#xD;&#xA;&#x9;&#x9;interviewVar.kinship = currentInterviewInput.kinship&#xD;&#xA;&#x9;&#x9;interviewVar.learningAdaptation = currentInterviewInput.learningAdaptation&#xD;&#xA;&#x9;&#x9;interviewVar.personalAnnotation = currentInterviewInput.personalAnnotation&#xD;&#xA;&#x9;&#x9;interviewVar.phone = currentInterviewInput.phone&#xD;&#xA;&#x9;&#x9;interviewVar.requiredAcademic = currentInterviewInput.requiredAcademic&#xD;&#xA;&#x9;&#x9;interviewVar.requiredCompetences = currentInterviewInput.requiredCompetences&#xD;&#xA;&#x9;&#x9;interviewVar.requiredExperience = currentInterviewInput.requiredExperience&#xD;&#xA;&#x9;&#x9;interviewVar.residence = currentInterviewInput.residence&#xD;&#xA;&#x9;&#x9;interviewVar.retirementDate = currentInterviewInput.retirementDate&#xD;&#xA;&#x9;&#x9;interviewVar.retirementMotive = currentInterviewInput.retirementMotive&#xD;&#xA;&#x9;&#x9;interviewVar.revisionVial = currentInterviewInput.revisionVial&#xD;&#xA;&#x9;&#x9;interviewVar.salaryGoal = currentInterviewInput.salaryGoal&#xD;&#xA;&#x9;&#x9;interviewVar.selected = currentInterviewInput.selected&#xD;&#xA;&#x9;&#x9;interviewVar.sizePants = currentInterviewInput.sizePants&#xD;&#xA;&#x9;&#x9;interviewVar.sizeShirt = currentInterviewInput.sizeShirt&#xD;&#xA;&#x9;&#x9;interviewVar.sizeShoes = currentInterviewInput.sizeShoes&#xD;&#xA;&#x9;&#x9;interviewVar.status = currentInterviewInput.status&#xD;&#xA;&#x9;&#x9;interviewVar.study = currentInterviewInput.study&#xD;&#xA;&#x9;&#x9;interviewVar.systemKnown = currentInterviewInput.systemKnown&#xD;&#xA;&#x9;&#x9;interviewVar.tecnicalEvaluation = currentInterviewInput.tecnicalEvaluation&#xD;&#xA;&#x9;&#x9;interviewVar.tecnicalknowledge = currentInterviewInput.tecnicalknowledge&#xD;&#xA;&#x9;&#x9;interviewVar.vehicle_owner_id = currentInterviewInput.vehicle_owner_id&#xD;&#xA;&#x9;&#x9;interviewVar.vehicle_owner_name = currentInterviewInput.vehicle_owner_name&#xD;&#xA;&#x9;&#x9;interviewVar.vechiclePlate = currentInterviewInput.vechiclePlate&#xD;&#xA;&#x9;&#x9;return interviewVar&#xD;&#xA;&#x9;}(it))&#xD;&#xA;}&#xD;&#xA;return interviewList" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.List">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_P0H-ECrIEe-VCNkuFEuxWQ" name="interviewInput" type="COMPLEX" multiple="true" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_7vqHAirDEe-VCNkuFEuxWQ" type="ASSIGNMENT" expression="addAll">
+              <inputTypes>java.util.Collection</inputTypes>
+            </operator>
+          </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_qibnw86GEe6NDtW6GSj43w" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_qibnxM6GEe6NDtW6GSj43w" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_qibnxc6GEe6NDtW6GSj43w" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_qilYwc6GEe6NDtW6GSj43w" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_qilYwM6GEe6NDtW6GSj43w" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_rWJjus6GEe6NDtW6GSj43w">
-            <targetForm xmi:type="expression:Expression" xmi:id="_BWyJUM6HEe6NDtW6GSj43w" name="InterviewForm" content="42ebfb7e-ff3d-4669-9c87-9c16debb4ab5" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_C_CiACrIEe-VCNkuFEuxWQ" name="newForm" content="8d77eb3f-30dc-4d49-af21-93bc1226e996" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_rWJjuc6GEe6NDtW6GSj43w">
-            <inputs xmi:type="process:ContractInput" xmi:id="_-aPfsM6GEe6NDtW6GSj43w" name="interviewInput" type="COMPLEX" multiple="true" dataReference="interview" createMode="false">
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPfss6GEe6NDtW6GSj43w" name="applicantPersistenceId" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPfs86GEe6NDtW6GSj43w" name="id" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPftM6GEe6NDtW6GSj43w" name="postulation" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPftc6GEe6NDtW6GSj43w" name="age" type="INTEGER" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPfts6GEe6NDtW6GSj43w" name="isPreviusEmployee" type="BOOLEAN" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPft86GEe6NDtW6GSj43w" name="isHaveVehicle" type="BOOLEAN" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPfuM6GEe6NDtW6GSj43w" name="schoolarLevelRequired" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPfuc6GEe6NDtW6GSj43w" name="experienceRequired" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPfus6GEe6NDtW6GSj43w" name="competencesRequired" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPfu86GEe6NDtW6GSj43w" name="techKnowledge" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPfvM6GEe6NDtW6GSj43w" name="adaptation" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPfvc6GEe6NDtW6GSj43w" name="observations" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPfvs6GEe6NDtW6GSj43w" name="isSelected" type="BOOLEAN" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-aPfv86GEe6NDtW6GSj43w" name="interviewer" createMode="false"/>
-            </inputs>
             <inputs xmi:type="process:ContractInput" xmi:id="_9XX0YM79Ee6NDtW6GSj43w" name="responsible">
               <mapping xmi:type="process:ContractInputMapping" xmi:id="_9XX0Yc79Ee6NDtW6GSj43w"/>
             </inputs>
+            <inputs xmi:type="process:ContractInput" xmi:id="_7vpf8CrDEe-VCNkuFEuxWQ" name="interviewInput" type="COMPLEX" multiple="true" dataReference="interview" createMode="false">
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf8irDEe-VCNkuFEuxWQ" name="aboutBusinessBoss" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf8yrDEe-VCNkuFEuxWQ" name="aboutBusinessMotive" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf9CrDEe-VCNkuFEuxWQ" name="aboutBusinessName" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf9SrDEe-VCNkuFEuxWQ" name="academicLevel" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf9irDEe-VCNkuFEuxWQ" name="age" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf9yrDEe-VCNkuFEuxWQ" name="applicationType" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf-CrDEe-VCNkuFEuxWQ" name="business_labour_1" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf-SrDEe-VCNkuFEuxWQ" name="business_labour_2" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf-irDEe-VCNkuFEuxWQ" name="business_motive_1" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf-yrDEe-VCNkuFEuxWQ" name="business_motive_2" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf_CrDEe-VCNkuFEuxWQ" name="business_name_1" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf_SrDEe-VCNkuFEuxWQ" name="business_name_2" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf_irDEe-VCNkuFEuxWQ" name="business_time_1" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpf_yrDEe-VCNkuFEuxWQ" name="business_time_2" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgACrDEe-VCNkuFEuxWQ" name="city" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgASrDEe-VCNkuFEuxWQ" name="currentForm" type="INTEGER" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgAirDEe-VCNkuFEuxWQ" name="expectedPosition" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgAyrDEe-VCNkuFEuxWQ" name="finalConcept" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgBCrDEe-VCNkuFEuxWQ" name="grade" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgBSrDEe-VCNkuFEuxWQ" name="id" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgBirDEe-VCNkuFEuxWQ" name="interviewId" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgByrDEe-VCNkuFEuxWQ" name="isAboutBussiness" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgCCrDEe-VCNkuFEuxWQ" name="isAboutFamily" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgCSrDEe-VCNkuFEuxWQ" name="isEvaluationControl" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgCirDEe-VCNkuFEuxWQ" name="isEvaluationFocus" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgCyrDEe-VCNkuFEuxWQ" name="isEvaluationLearning" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgDCrDEe-VCNkuFEuxWQ" name="isEvaluationOrientation" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgDSrDEe-VCNkuFEuxWQ" name="isEvaluationSensibility" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgDirDEe-VCNkuFEuxWQ" name="isLicence" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgDyrDEe-VCNkuFEuxWQ" name="isPreviusEmployee" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgECrDEe-VCNkuFEuxWQ" name="isSOAT" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgESrDEe-VCNkuFEuxWQ" name="isTecnomecanica" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgEirDEe-VCNkuFEuxWQ" name="isValidDocuments" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgEyrDEe-VCNkuFEuxWQ" name="isValidLicence" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgFCrDEe-VCNkuFEuxWQ" name="isVehicle" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgFSrDEe-VCNkuFEuxWQ" name="kinName" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgFirDEe-VCNkuFEuxWQ" name="kinship" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgFyrDEe-VCNkuFEuxWQ" name="learningAdaptation" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgGCrDEe-VCNkuFEuxWQ" name="personalAnnotation" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgGSrDEe-VCNkuFEuxWQ" name="phone" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgGirDEe-VCNkuFEuxWQ" name="requiredAcademic" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgGyrDEe-VCNkuFEuxWQ" name="requiredCompetences" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgHCrDEe-VCNkuFEuxWQ" name="requiredExperience" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgHSrDEe-VCNkuFEuxWQ" name="residence" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgHirDEe-VCNkuFEuxWQ" name="retirementDate" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgHyrDEe-VCNkuFEuxWQ" name="retirementMotive" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgICrDEe-VCNkuFEuxWQ" name="revisionVial" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgISrDEe-VCNkuFEuxWQ" name="salaryGoal" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgIirDEe-VCNkuFEuxWQ" name="selected" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgIyrDEe-VCNkuFEuxWQ" name="sizePants" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgJCrDEe-VCNkuFEuxWQ" name="sizeShirt" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgJSrDEe-VCNkuFEuxWQ" name="sizeShoes" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgJirDEe-VCNkuFEuxWQ" name="status" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgJyrDEe-VCNkuFEuxWQ" name="study" multiple="true" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgKCrDEe-VCNkuFEuxWQ" name="systemKnown" multiple="true" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgKSrDEe-VCNkuFEuxWQ" name="tecnicalEvaluation" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgKirDEe-VCNkuFEuxWQ" name="tecnicalknowledge" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgKyrDEe-VCNkuFEuxWQ" name="vehicle_owner_id" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgLCrDEe-VCNkuFEuxWQ" name="vehicle_owner_name" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_7vpgLSrDEe-VCNkuFEuxWQ" name="vechiclePlate" createMode="false"/>
+            </inputs>
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_7vpgLirDEe-VCNkuFEuxWQ" expression="interviewInput?.sizeShirt.flatten().every{it!=null}" errorMessage="sizeShirt is mandatory for Interview" name="mandatory_interviewInput_sizeShirt">
+              <inputNames>interviewInput</inputNames>
+            </constraints>
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_rWJjvM6GEe6NDtW6GSj43w" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
@@ -676,9 +715,8 @@
             <leftOperand xmi:type="expression:Expression" xmi:id="_vkIXUc6XEe6NDtW6GSj43w" name="interview" content="interview" type="TYPE_VARIABLE" returnType="java.util.List">
               <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_wy9h8M6XEe6NDtW6GSj43w" name="interview" multiple="true" dataType="_FA-AVMFiEe606YmA8peIWQ" className="com.discol.model.Interview"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_vkIXUs6XEe6NDtW6GSj43w" name="newScript()" content="def interviewList = []&#xD;&#xA;def index = 0&#xD;&#xA;for(item in interview){&#xD;&#xA;&#x9;item.isSelected = interviewInput[index].isSelected&#xD;&#xA;&#x9;interviewList.add(item)&#xD;&#xA;&#x9;index++&#xD;&#xA;&#x9;&#xD;&#xA;}&#xD;&#xA;interview.clear()&#xD;&#xA;return interviewList" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.Collection">
+            <rightOperand xmi:type="expression:Expression" xmi:id="_vkIXUs6XEe6NDtW6GSj43w" name="newScript()" content="def interviewList = []&#xD;&#xA;def index = 0&#xD;&#xA;for(item in interview){&#xD;&#xA;&#x9;item.isSelected =      [index].isSelected&#xD;&#xA;&#x9;interviewList.add(item)&#xD;&#xA;&#x9;index++&#xD;&#xA;&#x9;&#xD;&#xA;}&#xD;&#xA;interview.clear()&#xD;&#xA;return interviewList" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.Collection">
               <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_OOp7MM6pEe6NDtW6GSj43w" name="interview" multiple="true" dataType="_FA-AVMFiEe606YmA8peIWQ" className="com.discol.model.Interview"/>
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_OOp7Mc6pEe6NDtW6GSj43w" name="interviewInput" type="COMPLEX" multiple="true" createMode="false"/>
             </rightOperand>
             <operator xmi:type="expression:Operator" xmi:id="_vkIXU86XEe6NDtW6GSj43w" type="JAVA_METHOD" expression="addAll">
               <inputTypes>java.util.Collection</inputTypes>
@@ -729,22 +767,6 @@
             <targetForm xmi:type="expression:Expression" xmi:id="_2PhDis6SEe6NDtW6GSj43w" name="curricullumCheck" content="7f7b94bc-4baf-4f2c-8c7d-651908bc8093" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_2PhDiM6SEe6NDtW6GSj43w">
-            <inputs xmi:type="process:ContractInput" xmi:id="_UeJMAM6YEe6NDtW6GSj43w" name="interviewInput" type="COMPLEX" multiple="true" dataReference="interview" createMode="false">
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMAs6YEe6NDtW6GSj43w" name="applicantPersistenceId" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMA86YEe6NDtW6GSj43w" name="id" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMBM6YEe6NDtW6GSj43w" name="postulation" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMBc6YEe6NDtW6GSj43w" name="age" type="INTEGER" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMBs6YEe6NDtW6GSj43w" name="isPreviusEmployee" type="BOOLEAN" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMB86YEe6NDtW6GSj43w" name="isHaveVehicle" type="BOOLEAN" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMCM6YEe6NDtW6GSj43w" name="schoolarLevelRequired" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMCc6YEe6NDtW6GSj43w" name="experienceRequired" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMCs6YEe6NDtW6GSj43w" name="competencesRequired" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMC86YEe6NDtW6GSj43w" name="techKnowledge" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMDM6YEe6NDtW6GSj43w" name="adaptation" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMDc6YEe6NDtW6GSj43w" name="observations" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMDs6YEe6NDtW6GSj43w" name="isSelected" type="BOOLEAN" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_UeJMD86YEe6NDtW6GSj43w" name="interviewer" createMode="false"/>
-            </inputs>
             <inputs xmi:type="process:ContractInput" xmi:id="_e7j8wM7-Ee6NDtW6GSj43w" name="responsible">
               <mapping xmi:type="process:ContractInputMapping" xmi:id="_e7j8wc7-Ee6NDtW6GSj43w"/>
             </inputs>

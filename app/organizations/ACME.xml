@@ -2,551 +2,191 @@
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
   <customUserInfoDefinitions/>
   <users>
-    <user userName="william.jobs">
-      <firstName>William</firstName>
-      <lastName>Jobs</lastName>
-      <title>Mr</title>
-      <jobTitle>Chief Executive Officer</jobTitle>
-      <manager>april.sanchez</manager>
+    <user userName="lider-sistemas">
       <personalData/>
-      <professionalData>
-        <email>william.jobs@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">lider2024.</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="april.sanchez">
-      <firstName>April</firstName>
-      <lastName>Sanchez</lastName>
-      <title>Mrs</title>
-      <jobTitle>Compensation specialist</jobTitle>
-      <manager>helen.kelly</manager>
+    <user userName="lider-gh">
       <personalData/>
-      <professionalData>
-        <email>april.sanchez@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">gestion.h2024</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="helen.kelly">
-      <firstName>Helen</firstName>
-      <lastName>Kelly</lastName>
-      <title>Mrs</title>
-      <jobTitle>Human resource manager</jobTitle>
-      <manager>william.jobs</manager>
+    <user userName="lider-logistica">
       <personalData/>
-      <professionalData>
-        <email>helen.kelly@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">logis.2024.</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="walter.bates">
-      <firstName>Walter</firstName>
-      <lastName>Bates</lastName>
-      <title>Mr</title>
-      <jobTitle>Human resources benefits</jobTitle>
-      <manager>helen.kelly</manager>
+    <user userName="lider-pqrsf">
       <personalData/>
-      <professionalData>
-        <email>walter.bates@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">lider.pqr.2024</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="zachary.williamson">
-      <firstName>Zachary</firstName>
-      <lastName>Williamson</lastName>
-      <title>Mr</title>
-      <jobTitle>Chief Financial Officer</jobTitle>
-      <manager>william.jobs</manager>
+    <user userName="lider-cgestion">
       <personalData/>
-      <professionalData>
-        <email>zachary.williamson@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">controlg2024.</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="patrick.gardenier">
-      <firstName>Patrick</firstName>
-      <lastName>Gardenier</lastName>
-      <title>Mr</title>
-      <jobTitle>Financial controller</jobTitle>
-      <manager>zachary.williamson</manager>
+    <user userName="lider-calidad">
       <personalData/>
-      <professionalData>
-        <email>patrick.gardenier@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">calidad.2024#</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="virginie.jomphe">
-      <firstName>Virginie</firstName>
-      <lastName>Jomphe</lastName>
-      <title>Mrs</title>
-      <jobTitle>Accountant</jobTitle>
-      <manager>zachary.williamson</manager>
+    <user userName="lider-hse">
       <personalData/>
-      <professionalData>
-        <email>virginie.jomphe@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">hse#2024.</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="thorsten.hartmann">
-      <firstName>Thorsten</firstName>
-      <lastName>Hartmann</lastName>
-      <title>Mr</title>
-      <jobTitle>Financial planning manager</jobTitle>
-      <manager>zachary.williamson</manager>
+    <user userName="lider-comercial">
       <personalData/>
-      <professionalData>
-        <email>thorsten.hartmann@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">comercial.2024D</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="jan.fisher">
-      <firstName>Jan</firstName>
-      <lastName>Fisher</lastName>
-      <title>Mr</title>
-      <jobTitle>Infrastucture specialist</jobTitle>
-      <manager>favio.riviera</manager>
+    <user userName="director-admin">
       <personalData/>
-      <professionalData>
-        <email>jan.fisher@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">diradmin#2024</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="isabel.bleasdale">
-      <firstName>Isabel</firstName>
-      <lastName>Bleasdale</lastName>
-      <title>Mrs</title>
-      <jobTitle>Product marketing manager</jobTitle>
-      <manager>favio.riviera</manager>
+    <user userName="gerencia-discol">
       <personalData/>
-      <professionalData>
-        <email>isabel.bleasdale@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">gdiscol.2024#</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="favio.riviera">
-      <firstName>Favio</firstName>
-      <lastName>Riviera</lastName>
-      <title>Mr</title>
-      <jobTitle>Vice President of Marketing</jobTitle>
-      <manager>william.jobs</manager>
+    <user userName="lider-nomina">
       <personalData/>
-      <professionalData>
-        <email>favio.riviera@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">nomina#discol2024</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="michael.morrison">
-      <firstName>Michael</firstName>
-      <lastName>Morrison</lastName>
-      <title>Mr</title>
-      <jobTitle>Chief Technical Officer</jobTitle>
-      <manager>william.jobs</manager>
+    <user userName="lider-contabilidad">
       <personalData/>
-      <professionalData>
-        <email>michael.morrison@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">Contable.2024#.</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="marc.marseau">
-      <firstName>Marc</firstName>
-      <lastName>Marseau</lastName>
-      <title>Mr</title>
-      <jobTitle>Engineer</jobTitle>
-      <manager>michael.morrison</manager>
+    <user userName="lider-tesoreria">
       <personalData/>
-      <professionalData>
-        <email>marc.marseau@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">Tesorero#discol24.</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="joseph.hovell">
-      <firstName>Joseph</firstName>
-      <lastName>Hovell</lastName>
-      <title>Mr</title>
-      <jobTitle>Engineer</jobTitle>
-      <manager>michael.morrison</manager>
+    <user userName="asistemas">
       <personalData/>
-      <professionalData>
-        <email>joseph.hovell@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">ansistem.2024</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="mauro.zetticci">
-      <firstName>Mauro</firstName>
-      <lastName>Zetticci</lastName>
-      <title>Mr</title>
-      <jobTitle>Consultant</jobTitle>
-      <manager>michael.morrison</manager>
+    <user userName="asistemas2">
       <personalData/>
-      <professionalData>
-        <email>mauro.zetticci@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">amsistem#2024</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="thomas.wallis">
-      <firstName>Thomas</firstName>
-      <lastName>Wallis</lastName>
-      <title>Mr</title>
-      <jobTitle>Consultant</jobTitle>
-      <manager>michael.morrison</manager>
+    <user userName="auxlogistica">
       <personalData/>
-      <professionalData>
-        <email>thomas.wallis@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">logis.aux2024</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="daniela.angelo">
-      <firstName>Daniela</firstName>
-      <lastName>Angelo</lastName>
-      <title>Mrs</title>
-      <jobTitle>Vice President of Sales</jobTitle>
-      <manager>william.jobs</manager>
+    <user userName="auxlogistica2">
       <personalData/>
-      <professionalData>
-        <email>daniela.angelo@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">logis.aux.20.24</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="anthony.nichols">
-      <firstName>Anthony</firstName>
-      <lastName>Nichols</lastName>
-      <title>Mr</title>
-      <jobTitle>Account manager</jobTitle>
-      <manager>april.sanchez</manager>
+    <user userName="aux.gestion.humana">
       <personalData/>
-      <professionalData>
-        <email>anthony.nichols@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">GestionHumanaDiscol2024</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="misa.kumagai">
-      <firstName>Misa</firstName>
-      <lastName>Kumagai</lastName>
-      <title>Mrs</title>
-      <jobTitle>Account manager</jobTitle>
-      <manager>daniela.angelo</manager>
+    <user userName="aux.gestion.humana2">
       <personalData/>
-      <professionalData>
-        <email>misa.kumagai@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">GestionHumana.20.24</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="norio.yamazaki">
-      <firstName>Norio</firstName>
-      <lastName>Yamazaki</lastName>
-      <title>Mr</title>
-      <jobTitle>Account manager</jobTitle>
-      <manager>daniela.angelo</manager>
+    <user userName="aux-cgestion">
       <personalData/>
-      <professionalData>
-        <email>norio.yamazaki@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">controlg2024.</password>
+      <customUserInfoValues/>
     </user>
-    <user userName="giovanna.almeida">
-      <firstName>Giovanna</firstName>
-      <lastName>Almeida</lastName>
-      <title>Mrs</title>
-      <jobTitle>Account manager</jobTitle>
-      <manager>daniela.angelo</manager>
+    <user userName="aux-cgestion2">
       <personalData/>
-      <professionalData>
-        <email>giovanna.almeida@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <professionalData/>
+      <password encrypted="false">aux.gestion20#24</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="an.hse">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">hse#2024.</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="an.hse2">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">analistahse.20.24</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="asistencia.gerencia">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">asisger.2024#</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="asistencia.subg">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">asissubg#2024</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="auxnomina">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">n#discol2024</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="auxnomina2">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">nomina#2024</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="aux-tesoreria">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">auxtesdiscol24.</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="aux-tesoreria2">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">tesdiscol.2024#</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="auxcontable">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">contablediscol2024</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="auxcontable2">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">contable2024.</password>
+      <customUserInfoValues/>
     </user>
   </users>
   <roles>
@@ -560,189 +200,313 @@
     </role>
   </roles>
   <groups>
-    <group name="acme">
-      <displayName>Acme</displayName>
-      <description>This group represents the acme department of the ACME organization</description>
+    <group name="discol">
+      <displayName>Discol</displayName>
     </group>
-    <group name="hr" parentPath="/acme">
-      <displayName>Human Resources</displayName>
-      <description>This group represents the human resources department of the ACME organization</description>
+    <group name="Sistemas" parentPath="/discol">
+      <displayName>Sistemas</displayName>
     </group>
-    <group name="finance" parentPath="/acme">
-      <displayName>Finance</displayName>
-      <description>This group represents the finance department of the ACME organization</description>
+    <group name="Gestion_Humana" parentPath="/discol">
+      <displayName>Gestion humana</displayName>
     </group>
-    <group name="it" parentPath="/acme">
-      <displayName>Infrastructure</displayName>
-      <description>This group represents the infrastructure department of the ACME organization</description>
+    <group name="Logistica" parentPath="/discol">
+      <displayName>Logistica</displayName>
     </group>
-    <group name="marketing" parentPath="/acme">
-      <displayName>Marketing</displayName>
-      <description>This group represents the marketing department of the ACME organization</description>
+    <group name="PQRSF" parentPath="/discol">
+      <displayName>PQRSF</displayName>
     </group>
-    <group name="production" parentPath="/acme">
-      <displayName>Production</displayName>
-      <description>This group represents the production department of the ACME organization</description>
+    <group name="Control_Y_Gestion" parentPath="/discol">
+      <displayName>Control y gestion</displayName>
     </group>
-    <group name="sales" parentPath="/acme">
-      <displayName>Sales</displayName>
-      <description>This group represents the sales department of the ACME organization</description>
+    <group name="Calidad" parentPath="/discol">
+      <displayName>Calidad</displayName>
     </group>
-    <group name="europe" parentPath="/acme/sales">
-      <displayName>Europe</displayName>
-      <description>This group represents the europe department of the ACME organization</description>
+    <group name="HSE" parentPath="/discol">
+      <displayName>HSE</displayName>
     </group>
-    <group name="asia" parentPath="/acme/sales">
-      <displayName>Asia</displayName>
-      <description>This group represents the asia department of the ACME organization</description>
+    <group name="Comercial" parentPath="/discol">
+      <displayName>Comercial</displayName>
     </group>
-    <group name="latin_america" parentPath="/acme/sales">
-      <displayName>Latin America</displayName>
-      <description>This group represents the latin america department of the ACME organization</description>
+    <group name="Gerencia" parentPath="/discol">
+      <displayName>Gerencia</displayName>
     </group>
-    <group name="north_america" parentPath="/acme/sales">
-      <displayName>North America</displayName>
-      <description>This group represents the north america department of the ACME organization</description>
+    <group name="Direccion_Administrativa" parentPath="/discol">
+      <displayName>Direccion administrativa</displayName>
     </group>
-    <group name="rd" parentPath="/acme/production">
-      <displayName>Research &amp; Development</displayName>
-      <description>This group represents the research &amp; development department of the ACME organization</description>
+    <group name="Nomina" parentPath="/discol">
+      <displayName>Nomina</displayName>
     </group>
-    <group name="services" parentPath="/acme/production">
-      <displayName>Services</displayName>
-      <description>This group represents the services department of the ACME organization</description>
+    <group name="Contabilidad" parentPath="/discol">
+      <displayName>Contabiidad</displayName>
+    </group>
+    <group name="Tesoreria" parentPath="/discol">
+      <displayName>Tesoreria</displayName>
     </group>
   </groups>
   <memberships>
     <membership>
-      <userName>william.jobs</userName>
-      <roleName>member</roleName>
-      <groupName>acme</groupName>
-    </membership>
-    <membership>
-      <userName>april.sanchez</userName>
-      <roleName>member</roleName>
-      <groupName>hr</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>helen.kelly</userName>
-      <roleName>member</roleName>
-      <groupName>hr</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>walter.bates</userName>
-      <roleName>member</roleName>
-      <groupName>hr</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>zachary.williamson</userName>
-      <roleName>member</roleName>
-      <groupName>finance</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>patrick.gardenier</userName>
-      <roleName>member</roleName>
-      <groupName>finance</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>virginie.jomphe</userName>
-      <roleName>member</roleName>
-      <groupName>finance</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>thorsten.hartmann</userName>
-      <roleName>member</roleName>
-      <groupName>finance</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>jan.fisher</userName>
-      <roleName>member</roleName>
-      <groupName>it</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>isabel.bleasdale</userName>
-      <roleName>member</roleName>
-      <groupName>marketing</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>favio.riviera</userName>
-      <roleName>member</roleName>
-      <groupName>marketing</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>michael.morrison</userName>
-      <roleName>member</roleName>
-      <groupName>production</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>marc.marseau</userName>
-      <roleName>member</roleName>
-      <groupName>rd</groupName>
-      <groupParentPath>/acme/production</groupParentPath>
-    </membership>
-    <membership>
-      <userName>joseph.hovell</userName>
-      <roleName>member</roleName>
-      <groupName>rd</groupName>
-      <groupParentPath>/acme/production</groupParentPath>
-    </membership>
-    <membership>
-      <userName>mauro.zetticci</userName>
-      <roleName>member</roleName>
-      <groupName>services</groupName>
-      <groupParentPath>/acme/production</groupParentPath>
-    </membership>
-    <membership>
-      <userName>thomas.wallis</userName>
-      <roleName>member</roleName>
-      <groupName>services</groupName>
-      <groupParentPath>/acme/production</groupParentPath>
-    </membership>
-    <membership>
-      <userName>daniela.angelo</userName>
-      <roleName>member</roleName>
-      <groupName>europe</groupName>
-      <groupParentPath>/acme/sales</groupParentPath>
-    </membership>
-    <membership>
-      <userName>misa.kumagai</userName>
-      <roleName>member</roleName>
-      <groupName>asia</groupName>
-      <groupParentPath>/acme/sales</groupParentPath>
-    </membership>
-    <membership>
-      <userName>norio.yamazaki</userName>
-      <roleName>member</roleName>
-      <groupName>asia</groupName>
-      <groupParentPath>/acme/sales</groupParentPath>
-    </membership>
-    <membership>
-      <userName>giovanna.almeida</userName>
-      <roleName>member</roleName>
-      <groupName>latin_america</groupName>
-      <groupParentPath>/acme/sales</groupParentPath>
-    </membership>
-    <membership>
-      <userName>anthony.nichols</userName>
-      <roleName>member</roleName>
-      <groupName>north_america</groupName>
-      <groupParentPath>/acme/sales</groupParentPath>
-    </membership>
-    <membership>
-      <userName>william.jobs</userName>
+      <userName>lider-sistemas</userName>
       <roleName>Lider</roleName>
-      <groupName>acme</groupName>
+      <groupName>Sistemas</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-sistemas</userName>
+      <roleName>Lider</roleName>
+      <groupName>Sistemas</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-gh</userName>
+      <roleName>Lider</roleName>
+      <groupName>Gestion_Humana</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-gh</userName>
+      <roleName>member</roleName>
+      <groupName>Gestion_Humana</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-logistica</userName>
+      <roleName>Lider</roleName>
+      <groupName>Logistica</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-logistica</userName>
+      <roleName>member</roleName>
+      <groupName>Logistica</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-pqrsf</userName>
+      <roleName>Lider</roleName>
+      <groupName>PQRSF</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-pqrsf</userName>
+      <roleName>member</roleName>
+      <groupName>PQRSF</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-cgestion</userName>
+      <roleName>Lider</roleName>
+      <groupName>Control_Y_Gestion</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-cgestion</userName>
+      <roleName>member</roleName>
+      <groupName>Control_Y_Gestion</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-calidad</userName>
+      <roleName>Lider</roleName>
+      <groupName>Calidad</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-calidad</userName>
+      <roleName>member</roleName>
+      <groupName>Calidad</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-hse</userName>
+      <roleName>Lider</roleName>
+      <groupName>HSE</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-hse</userName>
+      <roleName>member</roleName>
+      <groupName>HSE</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-comercial</userName>
+      <roleName>Lider</roleName>
+      <groupName>Comercial</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-comercial</userName>
+      <roleName>member</roleName>
+      <groupName>Comercial</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>director-admin</userName>
+      <roleName>Lider</roleName>
+      <groupName>Direccion_Administrativa</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>gerencia-discol</userName>
+      <roleName>Lider</roleName>
+      <groupName>Gerencia</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>gerencia-discol</userName>
+      <roleName>member</roleName>
+      <groupName>Gerencia</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>director-admin</userName>
+      <roleName>member</roleName>
+      <groupName>Direccion_Administrativa</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-nomina</userName>
+      <roleName>Lider</roleName>
+      <groupName>Nomina</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-nomina</userName>
+      <roleName>member</roleName>
+      <groupName>Nomina</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-contabilidad</userName>
+      <roleName>Lider</roleName>
+      <groupName>Contabilidad</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-contabilidad</userName>
+      <roleName>member</roleName>
+      <groupName>Contabilidad</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-tesoreria</userName>
+      <roleName>Lider</roleName>
+      <groupName>Tesoreria</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>lider-tesoreria</userName>
+      <roleName>member</roleName>
+      <groupName>Tesoreria</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>asistemas</userName>
+      <roleName>member</roleName>
+      <groupName>Sistemas</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>asistemas2</userName>
+      <roleName>member</roleName>
+      <groupName>Sistemas</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>auxlogistica</userName>
+      <roleName>member</roleName>
+      <groupName>Logistica</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>auxlogistica2</userName>
+      <roleName>member</roleName>
+      <groupName>Logistica</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>aux.gestion.humana</userName>
+      <roleName>member</roleName>
+      <groupName>Gestion_Humana</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>aux.gestion.humana2</userName>
+      <roleName>member</roleName>
+      <groupName>Gestion_Humana</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>aux-cgestion</userName>
+      <roleName>member</roleName>
+      <groupName>Control_Y_Gestion</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>aux-cgestion2</userName>
+      <roleName>member</roleName>
+      <groupName>Control_Y_Gestion</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>an.hse</userName>
+      <roleName>member</roleName>
+      <groupName>HSE</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>an.hse2</userName>
+      <roleName>member</roleName>
+      <groupName>HSE</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>asistencia.gerencia</userName>
+      <roleName>member</roleName>
+      <groupName>Gerencia</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>asistencia.subg</userName>
+      <roleName>member</roleName>
+      <groupName>Gerencia</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>auxnomina</userName>
+      <roleName>member</roleName>
+      <groupName>Nomina</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>auxnomina2</userName>
+      <roleName>member</roleName>
+      <groupName>Nomina</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>aux-tesoreria</userName>
+      <roleName>member</roleName>
+      <groupName>Tesoreria</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>aux-tesoreria2</userName>
+      <roleName>member</roleName>
+      <groupName>Tesoreria</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>auxcontable</userName>
+      <roleName>member</roleName>
+      <groupName>Contabilidad</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>auxcontable2</userName>
+      <roleName>member</roleName>
+      <groupName>Contabilidad</groupName>
+      <groupParentPath>/discol</groupParentPath>
     </membership>
   </memberships>
 </organization:Organization>
