@@ -4,7 +4,7 @@
   "type" : "page",
   "uuid" : "fcbbb395-5e9e-4061-a95a-1e27d0a5a196",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1712357431487,
+  "lastUpdate" : 1720468293072,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -173,6 +173,1192 @@
               "reference" : "8d76080f-fb58-438f-b512-63f5f987b926",
               "hasValidationError" : false,
               "id" : "pbText"
+            }
+          ],
+          [
+            {
+              "type" : "container",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "repeatedCollection" : {
+                  "type" : "variable"
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "67457423-5091-4fff-ab95-5e8ea304552f",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "description" : "Auto generate ui for business object \"com.discol.model.RequestProcess\"",
+              "rows" : [
+                [
+                  {
+                    "type" : "container",
+                    "dimension" : {
+                      "xs" : 12
+                    },
+                    "propertyValues" : { },
+                    "reference" : "0e065347-9a92-4caa-8685-4ac68d8dd13f",
+                    "hasValidationError" : false,
+                    "id" : "pbContainer",
+                    "description" : "\"com.discol.model.RequestProcess\" object from \"requestProcess\" variable",
+                    "rows" : [
+                      [
+                        {
+                          "type" : "component",
+                          "dimension" : {
+                            "md" : 12,
+                            "sm" : 12,
+                            "xs" : 12,
+                            "lg" : 12
+                          },
+                          "propertyValues" : {
+                            "hidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "level" : {
+                              "type" : "constant",
+                              "value" : "Level 4"
+                            },
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "text" : {
+                              "type" : "interpolation",
+                              "value" : "RequestProcess"
+                            },
+                            "alignment" : {
+                              "type" : "constant",
+                              "value" : "left"
+                            },
+                            "dimension" : {
+                              "type" : "constant",
+                              "value" : 12
+                            }
+                          },
+                          "reference" : "9aa265aa-be69-4f8b-82ab-eaf6357735d1",
+                          "hasValidationError" : false,
+                          "id" : "pbTitle",
+                          "description" : ""
+                        }
+                      ],
+                      [
+                        {
+                          "type" : "component",
+                          "dimension" : {
+                            "md" : 12,
+                            "sm" : 12,
+                            "xs" : 12,
+                            "lg" : 12
+                          },
+                          "propertyValues" : {
+                            "headers" : {
+                              "type" : "constant",
+                              "value" : [
+                                "Created At",
+                                "Modifyed At",
+                                "Process Id",
+                                "Request Area",
+                                "Initiator User"
+                              ]
+                            },
+                            "allowHtml" : {
+                              "type" : "constant",
+                              "value" : true
+                            },
+                            "hidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "caption" : {
+                              "type" : "constant"
+                            },
+                            "condensed" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "bordered" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "selectedRow" : {
+                              "type" : "variable",
+                              "value" : "requestProcess_selected"
+                            },
+                            "columnsKey" : {
+                              "type" : "constant",
+                              "value" : [
+                                "createdAt",
+                                "modifyedAt",
+                                "processId",
+                                "requestArea",
+                                "initiatorUser"
+                              ]
+                            },
+                            "dimension" : {
+                              "type" : "constant",
+                              "value" : 12
+                            },
+                            "content" : {
+                              "type" : "expression",
+                              "value" : "requestProcess"
+                            },
+                            "zebraStriping" : {
+                              "type" : "constant",
+                              "value" : true
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "striped" : {
+                              "type" : "constant",
+                              "value" : true
+                            }
+                          },
+                          "reference" : "475157a6-6573-42ee-aa69-036e8b461edf",
+                          "hasValidationError" : false,
+                          "id" : "pbTable",
+                          "description" : ""
+                        }
+                      ],
+                      [
+                        {
+                          "type" : "container",
+                          "dimension" : {
+                            "md" : 1,
+                            "sm" : 1,
+                            "xs" : 1,
+                            "lg" : 1
+                          },
+                          "propertyValues" : {
+                            "repeatedCollection" : {
+                              "type" : "variable"
+                            },
+                            "hidden" : {
+                              "type" : "expression",
+                              "value" : "!requestProcess_selected"
+                            },
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "dimension" : {
+                              "type" : "constant",
+                              "value" : 1
+                            }
+                          },
+                          "reference" : "5f3aa954-9089-4fec-bc60-5269b381e4da",
+                          "hasValidationError" : false,
+                          "id" : "pbContainer",
+                          "rows" : [
+                            [ ]
+                          ]
+                        },
+                        {
+                          "type" : "container",
+                          "dimension" : {
+                            "md" : 11,
+                            "sm" : 11,
+                            "xs" : 11,
+                            "lg" : 11
+                          },
+                          "propertyValues" : {
+                            "repeatedCollection" : {
+                              "type" : "variable"
+                            },
+                            "hidden" : {
+                              "type" : "expression",
+                              "value" : "!requestProcess_selected"
+                            },
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "dimension" : {
+                              "type" : "constant",
+                              "value" : 11
+                            }
+                          },
+                          "reference" : "73c7785c-01e8-4c68-9a38-f54f015a847a",
+                          "hasValidationError" : false,
+                          "id" : "pbContainer",
+                          "description" : "Display \"RequestProcess\" details when a line is selected in the table above",
+                          "rows" : [
+                            [
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "md" : 12,
+                                  "sm" : 12,
+                                  "xs" : 12,
+                                  "lg" : 12
+                                },
+                                "propertyValues" : {
+                                  "showNow" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "hidden" : {
+                                    "type" : "expression",
+                                    "value" : "!requestProcess_selected.createdAt"
+                                  },
+                                  "inlineInput" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "dateFormat" : {
+                                    "type" : "constant",
+                                    "value" : "MM/dd/yyyy"
+                                  },
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "labelWidth" : {
+                                    "type" : "constant",
+                                    "value" : 1
+                                  },
+                                  "readOnly" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "label" : {
+                                    "type" : "interpolation",
+                                    "value" : "Created At"
+                                  },
+                                  "type" : {
+                                    "type" : "constant"
+                                  },
+                                  "required" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "todayLabel" : {
+                                    "type" : "constant",
+                                    "value" : "Today"
+                                  },
+                                  "timePlaceholder" : {
+                                    "type" : "constant",
+                                    "value" : "Enter a time (h:mm:ss a)"
+                                  },
+                                  "labelHidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "showToday" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "labelPosition" : {
+                                    "type" : "constant",
+                                    "value" : "top"
+                                  },
+                                  "timeFormat" : {
+                                    "type" : "constant",
+                                    "value" : "h:mm:ss a"
+                                  },
+                                  "placeholder" : {
+                                    "type" : "constant",
+                                    "value" : "Enter a date (mm/dd/yyyy)"
+                                  },
+                                  "nowLabel" : {
+                                    "type" : "constant",
+                                    "value" : "Now"
+                                  },
+                                  "dimension" : {
+                                    "type" : "constant",
+                                    "value" : 12
+                                  },
+                                  "value" : {
+                                    "type" : "variable",
+                                    "value" : "requestProcess_selected.createdAt"
+                                  },
+                                  "withTimeZone" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  }
+                                },
+                                "reference" : "9e329945-edd8-44ec-9b7b-426a87eefad9",
+                                "hasValidationError" : false,
+                                "id" : "pbDateTimePicker",
+                                "description" : ""
+                              }
+                            ],
+                            [
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "md" : 12,
+                                  "sm" : 12,
+                                  "xs" : 12,
+                                  "lg" : 12
+                                },
+                                "propertyValues" : {
+                                  "showNow" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "hidden" : {
+                                    "type" : "expression",
+                                    "value" : "!requestProcess_selected.modifyedAt"
+                                  },
+                                  "inlineInput" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "dateFormat" : {
+                                    "type" : "constant",
+                                    "value" : "MM/dd/yyyy"
+                                  },
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "labelWidth" : {
+                                    "type" : "constant",
+                                    "value" : 1
+                                  },
+                                  "readOnly" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "label" : {
+                                    "type" : "interpolation",
+                                    "value" : "Modifyed At"
+                                  },
+                                  "type" : {
+                                    "type" : "constant"
+                                  },
+                                  "required" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "todayLabel" : {
+                                    "type" : "constant",
+                                    "value" : "Today"
+                                  },
+                                  "timePlaceholder" : {
+                                    "type" : "constant",
+                                    "value" : "Enter a time (h:mm:ss a)"
+                                  },
+                                  "labelHidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "showToday" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "labelPosition" : {
+                                    "type" : "constant",
+                                    "value" : "top"
+                                  },
+                                  "timeFormat" : {
+                                    "type" : "constant",
+                                    "value" : "h:mm:ss a"
+                                  },
+                                  "placeholder" : {
+                                    "type" : "constant",
+                                    "value" : "Enter a date (mm/dd/yyyy)"
+                                  },
+                                  "nowLabel" : {
+                                    "type" : "constant",
+                                    "value" : "Now"
+                                  },
+                                  "dimension" : {
+                                    "type" : "constant",
+                                    "value" : 12
+                                  },
+                                  "value" : {
+                                    "type" : "variable",
+                                    "value" : "requestProcess_selected.modifyedAt"
+                                  },
+                                  "withTimeZone" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  }
+                                },
+                                "reference" : "1dbdd4d5-8ad5-4047-8089-3486addf1d9b",
+                                "hasValidationError" : false,
+                                "id" : "pbDateTimePicker",
+                                "description" : ""
+                              }
+                            ],
+                            [
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "md" : 12,
+                                  "sm" : 12,
+                                  "xs" : 12,
+                                  "lg" : 12
+                                },
+                                "propertyValues" : {
+                                  "labelHidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "hidden" : {
+                                    "type" : "expression",
+                                    "value" : "!requestProcess_selected.processId"
+                                  },
+                                  "labelPosition" : {
+                                    "type" : "constant",
+                                    "value" : "top"
+                                  },
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "labelWidth" : {
+                                    "type" : "constant",
+                                    "value" : 1
+                                  },
+                                  "readOnly" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "label" : {
+                                    "type" : "interpolation",
+                                    "value" : "Process Id"
+                                  },
+                                  "placeholder" : {
+                                    "type" : "constant"
+                                  },
+                                  "type" : {
+                                    "type" : "constant",
+                                    "value" : "number"
+                                  },
+                                  "dimension" : {
+                                    "type" : "constant",
+                                    "value" : 12
+                                  },
+                                  "value" : {
+                                    "type" : "variable",
+                                    "value" : "requestProcess_selected.processId"
+                                  },
+                                  "required" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  }
+                                },
+                                "reference" : "cbc55b34-deeb-459a-a763-b9e8de84f579",
+                                "hasValidationError" : false,
+                                "id" : "pbInput",
+                                "description" : ""
+                              }
+                            ],
+                            [
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "md" : 12,
+                                  "sm" : 12,
+                                  "xs" : 12,
+                                  "lg" : 12
+                                },
+                                "propertyValues" : {
+                                  "labelHidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "hidden" : {
+                                    "type" : "expression",
+                                    "value" : "!requestProcess_selected.requestArea"
+                                  },
+                                  "labelPosition" : {
+                                    "type" : "constant",
+                                    "value" : "top"
+                                  },
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "labelWidth" : {
+                                    "type" : "constant",
+                                    "value" : 1
+                                  },
+                                  "readOnly" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "label" : {
+                                    "type" : "interpolation",
+                                    "value" : "Request Area"
+                                  },
+                                  "placeholder" : {
+                                    "type" : "constant"
+                                  },
+                                  "type" : {
+                                    "type" : "constant",
+                                    "value" : "text"
+                                  },
+                                  "dimension" : {
+                                    "type" : "constant",
+                                    "value" : 12
+                                  },
+                                  "value" : {
+                                    "type" : "variable",
+                                    "value" : "requestProcess_selected.requestArea"
+                                  },
+                                  "required" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  }
+                                },
+                                "reference" : "df785e33-4c41-4398-8af6-0096cf1d3ec8",
+                                "hasValidationError" : false,
+                                "id" : "pbInput",
+                                "description" : ""
+                              }
+                            ],
+                            [
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "md" : 12,
+                                  "sm" : 12,
+                                  "xs" : 12,
+                                  "lg" : 12
+                                },
+                                "propertyValues" : {
+                                  "labelHidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "hidden" : {
+                                    "type" : "expression",
+                                    "value" : "!requestProcess_selected.initiatorUser"
+                                  },
+                                  "labelPosition" : {
+                                    "type" : "constant",
+                                    "value" : "top"
+                                  },
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "labelWidth" : {
+                                    "type" : "constant",
+                                    "value" : 1
+                                  },
+                                  "readOnly" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "label" : {
+                                    "type" : "interpolation",
+                                    "value" : "Initiator User"
+                                  },
+                                  "placeholder" : {
+                                    "type" : "constant"
+                                  },
+                                  "type" : {
+                                    "type" : "constant",
+                                    "value" : "text"
+                                  },
+                                  "dimension" : {
+                                    "type" : "constant",
+                                    "value" : 12
+                                  },
+                                  "value" : {
+                                    "type" : "variable",
+                                    "value" : "requestProcess_selected.initiatorUser"
+                                  },
+                                  "required" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  }
+                                },
+                                "reference" : "5aaadff9-d971-48e1-85da-826c5f0fd239",
+                                "hasValidationError" : false,
+                                "id" : "pbInput",
+                                "description" : ""
+                              }
+                            ],
+                            [
+                              {
+                                "type" : "container",
+                                "dimension" : {
+                                  "xs" : 12
+                                },
+                                "propertyValues" : { },
+                                "reference" : "195a3e21-9229-4eda-8d64-cb728aa86218",
+                                "hasValidationError" : false,
+                                "id" : "pbContainer",
+                                "description" : "\"com.discol.model.Approvations\" object from \"requestProcess_approvations_selected.approvations\" variable",
+                                "rows" : [
+                                  [
+                                    {
+                                      "type" : "component",
+                                      "dimension" : {
+                                        "md" : 12,
+                                        "sm" : 12,
+                                        "xs" : 12,
+                                        "lg" : 12
+                                      },
+                                      "propertyValues" : {
+                                        "hidden" : {
+                                          "type" : "constant",
+                                          "value" : false
+                                        },
+                                        "level" : {
+                                          "type" : "constant",
+                                          "value" : "Level 4"
+                                        },
+                                        "cssClasses" : {
+                                          "type" : "constant",
+                                          "value" : ""
+                                        },
+                                        "text" : {
+                                          "type" : "interpolation",
+                                          "value" : "Approvations"
+                                        },
+                                        "alignment" : {
+                                          "type" : "constant",
+                                          "value" : "left"
+                                        },
+                                        "dimension" : {
+                                          "type" : "constant",
+                                          "value" : 12
+                                        }
+                                      },
+                                      "reference" : "54561f26-0d86-4dc1-b79f-b960312e0413",
+                                      "hasValidationError" : false,
+                                      "id" : "pbTitle",
+                                      "description" : ""
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "type" : "component",
+                                      "dimension" : {
+                                        "md" : 12,
+                                        "sm" : 12,
+                                        "xs" : 12,
+                                        "lg" : 12
+                                      },
+                                      "propertyValues" : {
+                                        "headers" : {
+                                          "type" : "constant",
+                                          "value" : [
+                                            "Responsible",
+                                            "Area",
+                                            "Response",
+                                            "Response Date",
+                                            "Task Name"
+                                          ]
+                                        },
+                                        "allowHtml" : {
+                                          "type" : "constant",
+                                          "value" : true
+                                        },
+                                        "hidden" : {
+                                          "type" : "constant",
+                                          "value" : false
+                                        },
+                                        "cssClasses" : {
+                                          "type" : "constant",
+                                          "value" : ""
+                                        },
+                                        "caption" : {
+                                          "type" : "constant"
+                                        },
+                                        "condensed" : {
+                                          "type" : "constant",
+                                          "value" : false
+                                        },
+                                        "bordered" : {
+                                          "type" : "constant",
+                                          "value" : false
+                                        },
+                                        "selectedRow" : {
+                                          "type" : "variable",
+                                          "value" : "requestProcess_approvations_selected"
+                                        },
+                                        "columnsKey" : {
+                                          "type" : "constant",
+                                          "value" : [
+                                            "responsible",
+                                            "area",
+                                            "response",
+                                            "responseDate",
+                                            "taskName"
+                                          ]
+                                        },
+                                        "dimension" : {
+                                          "type" : "constant",
+                                          "value" : 12
+                                        },
+                                        "content" : {
+                                          "type" : "expression",
+                                          "value" : "requestProcess_approvations"
+                                        },
+                                        "zebraStriping" : {
+                                          "type" : "constant",
+                                          "value" : true
+                                        }
+                                      },
+                                      "reference" : "33b2c713-b42b-4622-aa09-25fec992e34c",
+                                      "hasValidationError" : false,
+                                      "id" : "pbTable",
+                                      "description" : ""
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "type" : "container",
+                                      "dimension" : {
+                                        "md" : 1,
+                                        "sm" : 1,
+                                        "xs" : 1,
+                                        "lg" : 1
+                                      },
+                                      "propertyValues" : {
+                                        "repeatedCollection" : {
+                                          "type" : "variable"
+                                        },
+                                        "hidden" : {
+                                          "type" : "expression",
+                                          "value" : "!requestProcess_approvations_selected"
+                                        },
+                                        "cssClasses" : {
+                                          "type" : "constant",
+                                          "value" : ""
+                                        },
+                                        "dimension" : {
+                                          "type" : "constant",
+                                          "value" : 1
+                                        }
+                                      },
+                                      "reference" : "a2536371-db35-48a8-9d01-d18ab6d4bea5",
+                                      "hasValidationError" : false,
+                                      "id" : "pbContainer",
+                                      "rows" : [
+                                        [ ]
+                                      ]
+                                    },
+                                    {
+                                      "type" : "container",
+                                      "dimension" : {
+                                        "md" : 11,
+                                        "sm" : 11,
+                                        "xs" : 11,
+                                        "lg" : 11
+                                      },
+                                      "propertyValues" : {
+                                        "repeatedCollection" : {
+                                          "type" : "variable"
+                                        },
+                                        "hidden" : {
+                                          "type" : "expression",
+                                          "value" : "!requestProcess_approvations_selected"
+                                        },
+                                        "cssClasses" : {
+                                          "type" : "constant",
+                                          "value" : ""
+                                        },
+                                        "dimension" : {
+                                          "type" : "constant",
+                                          "value" : 11
+                                        }
+                                      },
+                                      "reference" : "8b8c7caa-ca07-4671-bb37-7cdc6abb6076",
+                                      "hasValidationError" : false,
+                                      "id" : "pbContainer",
+                                      "description" : "Display \"Approvations\" details when a line is selected in the table above",
+                                      "rows" : [
+                                        [
+                                          {
+                                            "type" : "component",
+                                            "dimension" : {
+                                              "md" : 12,
+                                              "sm" : 12,
+                                              "xs" : 12,
+                                              "lg" : 12
+                                            },
+                                            "propertyValues" : {
+                                              "labelHidden" : {
+                                                "type" : "constant",
+                                                "value" : false
+                                              },
+                                              "hidden" : {
+                                                "type" : "expression",
+                                                "value" : "!requestProcess_approvations_selected.responsible"
+                                              },
+                                              "labelPosition" : {
+                                                "type" : "constant",
+                                                "value" : "top"
+                                              },
+                                              "cssClasses" : {
+                                                "type" : "constant",
+                                                "value" : ""
+                                              },
+                                              "labelWidth" : {
+                                                "type" : "constant",
+                                                "value" : 1
+                                              },
+                                              "readOnly" : {
+                                                "type" : "constant",
+                                                "value" : true
+                                              },
+                                              "label" : {
+                                                "type" : "interpolation",
+                                                "value" : "Responsible"
+                                              },
+                                              "placeholder" : {
+                                                "type" : "constant"
+                                              },
+                                              "type" : {
+                                                "type" : "constant",
+                                                "value" : "text"
+                                              },
+                                              "dimension" : {
+                                                "type" : "constant",
+                                                "value" : 12
+                                              },
+                                              "value" : {
+                                                "type" : "variable",
+                                                "value" : "requestProcess_approvations_selected.responsible"
+                                              },
+                                              "required" : {
+                                                "type" : "constant",
+                                                "value" : false
+                                              }
+                                            },
+                                            "reference" : "27d33697-ea41-4db8-9bd3-f6fb1b63cdff",
+                                            "hasValidationError" : false,
+                                            "id" : "pbInput",
+                                            "description" : ""
+                                          }
+                                        ],
+                                        [
+                                          {
+                                            "type" : "component",
+                                            "dimension" : {
+                                              "md" : 12,
+                                              "sm" : 12,
+                                              "xs" : 12,
+                                              "lg" : 12
+                                            },
+                                            "propertyValues" : {
+                                              "labelHidden" : {
+                                                "type" : "constant",
+                                                "value" : false
+                                              },
+                                              "hidden" : {
+                                                "type" : "expression",
+                                                "value" : "!requestProcess_approvations_selected.area"
+                                              },
+                                              "labelPosition" : {
+                                                "type" : "constant",
+                                                "value" : "top"
+                                              },
+                                              "cssClasses" : {
+                                                "type" : "constant",
+                                                "value" : ""
+                                              },
+                                              "labelWidth" : {
+                                                "type" : "constant",
+                                                "value" : 1
+                                              },
+                                              "readOnly" : {
+                                                "type" : "constant",
+                                                "value" : true
+                                              },
+                                              "label" : {
+                                                "type" : "interpolation",
+                                                "value" : "Area"
+                                              },
+                                              "placeholder" : {
+                                                "type" : "constant"
+                                              },
+                                              "type" : {
+                                                "type" : "constant",
+                                                "value" : "text"
+                                              },
+                                              "dimension" : {
+                                                "type" : "constant",
+                                                "value" : 12
+                                              },
+                                              "value" : {
+                                                "type" : "variable",
+                                                "value" : "requestProcess_approvations_selected.area"
+                                              },
+                                              "required" : {
+                                                "type" : "constant",
+                                                "value" : false
+                                              }
+                                            },
+                                            "reference" : "bf9ceb5a-06ce-4b63-93f9-6a595598e062",
+                                            "hasValidationError" : false,
+                                            "id" : "pbInput",
+                                            "description" : ""
+                                          }
+                                        ],
+                                        [
+                                          {
+                                            "type" : "component",
+                                            "dimension" : {
+                                              "md" : 12,
+                                              "sm" : 12,
+                                              "xs" : 12,
+                                              "lg" : 12
+                                            },
+                                            "propertyValues" : {
+                                              "labelHidden" : {
+                                                "type" : "constant",
+                                                "value" : false
+                                              },
+                                              "hidden" : {
+                                                "type" : "expression",
+                                                "value" : "!requestProcess_approvations_selected.response"
+                                              },
+                                              "labelPosition" : {
+                                                "type" : "constant",
+                                                "value" : "top"
+                                              },
+                                              "cssClasses" : {
+                                                "type" : "constant",
+                                                "value" : ""
+                                              },
+                                              "labelWidth" : {
+                                                "type" : "constant",
+                                                "value" : 1
+                                              },
+                                              "readOnly" : {
+                                                "type" : "constant",
+                                                "value" : true
+                                              },
+                                              "label" : {
+                                                "type" : "interpolation",
+                                                "value" : "Response"
+                                              },
+                                              "placeholder" : {
+                                                "type" : "constant"
+                                              },
+                                              "type" : {
+                                                "type" : "constant",
+                                                "value" : "text"
+                                              },
+                                              "dimension" : {
+                                                "type" : "constant",
+                                                "value" : 12
+                                              },
+                                              "value" : {
+                                                "type" : "variable",
+                                                "value" : "requestProcess_approvations_selected.response"
+                                              },
+                                              "required" : {
+                                                "type" : "constant",
+                                                "value" : false
+                                              }
+                                            },
+                                            "reference" : "41f0ed64-ceb7-4e5e-b2de-948f278bf0f8",
+                                            "hasValidationError" : false,
+                                            "id" : "pbInput",
+                                            "description" : ""
+                                          }
+                                        ],
+                                        [
+                                          {
+                                            "type" : "component",
+                                            "dimension" : {
+                                              "md" : 12,
+                                              "sm" : 12,
+                                              "xs" : 12,
+                                              "lg" : 12
+                                            },
+                                            "propertyValues" : {
+                                              "showNow" : {
+                                                "type" : "constant",
+                                                "value" : true
+                                              },
+                                              "hidden" : {
+                                                "type" : "expression",
+                                                "value" : "!requestProcess_approvations_selected.responseDate"
+                                              },
+                                              "inlineInput" : {
+                                                "type" : "constant",
+                                                "value" : true
+                                              },
+                                              "dateFormat" : {
+                                                "type" : "constant",
+                                                "value" : "MM/dd/yyyy"
+                                              },
+                                              "cssClasses" : {
+                                                "type" : "constant",
+                                                "value" : ""
+                                              },
+                                              "labelWidth" : {
+                                                "type" : "constant",
+                                                "value" : 1
+                                              },
+                                              "readOnly" : {
+                                                "type" : "constant",
+                                                "value" : true
+                                              },
+                                              "label" : {
+                                                "type" : "interpolation",
+                                                "value" : "Response Date"
+                                              },
+                                              "type" : {
+                                                "type" : "constant"
+                                              },
+                                              "required" : {
+                                                "type" : "constant",
+                                                "value" : false
+                                              },
+                                              "todayLabel" : {
+                                                "type" : "constant",
+                                                "value" : "Today"
+                                              },
+                                              "timePlaceholder" : {
+                                                "type" : "constant",
+                                                "value" : "Enter a time (h:mm:ss a)"
+                                              },
+                                              "labelHidden" : {
+                                                "type" : "constant",
+                                                "value" : false
+                                              },
+                                              "showToday" : {
+                                                "type" : "constant",
+                                                "value" : true
+                                              },
+                                              "labelPosition" : {
+                                                "type" : "constant",
+                                                "value" : "top"
+                                              },
+                                              "timeFormat" : {
+                                                "type" : "constant",
+                                                "value" : "h:mm:ss a"
+                                              },
+                                              "placeholder" : {
+                                                "type" : "constant",
+                                                "value" : "Enter a date (mm/dd/yyyy)"
+                                              },
+                                              "nowLabel" : {
+                                                "type" : "constant",
+                                                "value" : "Now"
+                                              },
+                                              "dimension" : {
+                                                "type" : "constant",
+                                                "value" : 12
+                                              },
+                                              "value" : {
+                                                "type" : "variable",
+                                                "value" : "requestProcess_approvations_selected.responseDate"
+                                              },
+                                              "withTimeZone" : {
+                                                "type" : "constant",
+                                                "value" : false
+                                              }
+                                            },
+                                            "reference" : "1cdaa93b-92ea-4279-a191-d8264ecc6160",
+                                            "hasValidationError" : false,
+                                            "id" : "pbDateTimePicker",
+                                            "description" : ""
+                                          }
+                                        ],
+                                        [
+                                          {
+                                            "type" : "component",
+                                            "dimension" : {
+                                              "md" : 12,
+                                              "sm" : 12,
+                                              "xs" : 12,
+                                              "lg" : 12
+                                            },
+                                            "propertyValues" : {
+                                              "labelHidden" : {
+                                                "type" : "constant",
+                                                "value" : false
+                                              },
+                                              "hidden" : {
+                                                "type" : "expression",
+                                                "value" : "!requestProcess_approvations_selected.taskName"
+                                              },
+                                              "labelPosition" : {
+                                                "type" : "constant",
+                                                "value" : "top"
+                                              },
+                                              "cssClasses" : {
+                                                "type" : "constant",
+                                                "value" : ""
+                                              },
+                                              "labelWidth" : {
+                                                "type" : "constant",
+                                                "value" : 1
+                                              },
+                                              "readOnly" : {
+                                                "type" : "constant",
+                                                "value" : true
+                                              },
+                                              "label" : {
+                                                "type" : "interpolation",
+                                                "value" : "Task Name"
+                                              },
+                                              "placeholder" : {
+                                                "type" : "constant"
+                                              },
+                                              "type" : {
+                                                "type" : "constant",
+                                                "value" : "text"
+                                              },
+                                              "dimension" : {
+                                                "type" : "constant",
+                                                "value" : 12
+                                              },
+                                              "value" : {
+                                                "type" : "variable",
+                                                "value" : "requestProcess_approvations_selected.taskName"
+                                              },
+                                              "required" : {
+                                                "type" : "constant",
+                                                "value" : false
+                                              }
+                                            },
+                                            "reference" : "14060884-8b1a-449a-8475-1139012aa4cc",
+                                            "hasValidationError" : false,
+                                            "id" : "pbInput",
+                                            "description" : ""
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
             }
           ]
         ]
@@ -474,6 +1660,34 @@
         "    ],",
         "    titles:[\"Obra/Labor\", \"Indefinido\", \"Termino Fijo\", \"Aprendizaje\"]",
         "}"
+      ],
+      "exposed" : false
+    },
+    "requestProcess" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [com.discol.model.RequestProcess]\",\"businessObjectName\":\"RequestProcess\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"com.discol.model.RequestProcess\",\"filters\":[],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "requestProcess_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    },
+    "requestProcess_approvations_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    },
+    "requestProcess_approvations" : {
+      "type" : "url",
+      "value" : [
+        "{{requestProcess_selected|lazyRef:'approvations'}}"
       ],
       "exposed" : false
     }

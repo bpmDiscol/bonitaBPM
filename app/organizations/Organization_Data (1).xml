@@ -1,611 +1,630 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
-    <customUserInfoDefinitions/>
-    <users>
-        <user userName="lider-sistemas">
-            <password encrypted="true">pcCm3kwvye28qZXbf0E9mA==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="lider-gh">
-            <password encrypted="true">MMVl6CieE1otfzOCbhWgxg==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="lider-logistica">
-            <password encrypted="true">T6WownE+CPX1tVWdWG40yQ==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="lider-pqrsf">
-            <password encrypted="true">Vivx5XAgwqt5ocF4B/jz1A==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="lider-cgestion">
-            <password encrypted="true">nZpFCkR9zaPIpZW7eYKIug==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="lider-calidad">
-            <password encrypted="true">u8iT+W7MSpBiga/oKYcxDQ==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="lider-hse">
-            <password encrypted="true">MrmORlfnYeo50PlTPldFSA==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="lider-comercial">
-            <password encrypted="true">OezPrkEMzAZDwe1YloKz9Q==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="director-admin">
-            <password encrypted="true">KMUSb9lVQdJTb9rBi7cKBg==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="gerencia-discol">
-            <password encrypted="true">6r1NE7IznN2tW0ve2d383A==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="lider-nomina">
-            <password encrypted="true">jeSuV9aeqxT/Rie86Soeug==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="lider-contabilidad">
-            <password encrypted="true">IY8wRTqjjPChvIs+zGKSZA==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="lider-tesoreria">
-            <password encrypted="true">iGBqwaCb4tULcYCCJwccGQ==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="asistemas">
-            <password encrypted="true">gPtvj0OaqGjyaOG1KNzPvA==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="asistemas2">
-            <password encrypted="true">I/XsuFJsuF2N5LbtnoBhpQ==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="auxlogistica">
-            <password encrypted="true">q7qkaxGXLeOQBcBpFsOlhA==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="auxlogistica2">
-            <password encrypted="true">bK4zCKXM3hhIdKSxtoCBRg==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="aux.gestion.humana">
-            <password encrypted="true">18pxsMXsx+2dklCtFoUHQA==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="aux.gestion.humana2">
-            <password encrypted="true">36HvJA0DBsb83IwaTHEIyw==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="aux-cgestion">
-            <password encrypted="true">nZpFCkR9zaPIpZW7eYKIug==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="aux-cgestion2">
-            <password encrypted="true">EQtUwPsBGsc1B1clljH/gg==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="an.hse">
-            <password encrypted="true">MrmORlfnYeo50PlTPldFSA==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="an.hse2">
-            <password encrypted="true">6naFh4Oek7MgBtBjLZBOgA==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="asistencia.gerencia">
-            <password encrypted="true">ntm9b+xFIhmD/zkqP9grXg==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="asistencia.subg">
-            <password encrypted="true">kTtX8XrCwyznGYoIOk3Xbg==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="auxnomina">
-            <password encrypted="true">vVuDYlSKXa/g6KDbUwXPgA==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="auxnomina2">
-            <password encrypted="true">IECSbnh5hvixOdtyQQixZA==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="aux-tesoreria">
-            <password encrypted="true">cCWoGlv25oqWchuRFuo/5w==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="aux-tesoreria2">
-            <password encrypted="true">a9PenxuDu51aoh854hmTEQ==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="auxcontable">
-            <password encrypted="true">pdcksgQNitc84bIif5r+Uw==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-        <user userName="auxcontable2">
-            <password encrypted="true">p6+VsTI77c0neo3Sf8CCpA==</password>
-            <enabled>true</enabled>
-            <personalData/>
-            <professionalData/>
-            <customUserInfoValues/>
-            <metaDatas/>
-        </user>
-    </users>
-    <roles>
-        <role name="member">
-            <displayName>Member</displayName>
-            <description></description>
-        </role>
-        <role name="Lider">
-            <displayName>Lider</displayName>
-            <description>Administrador de procesos</description>
-        </role>
-    </roles>
-    <groups>
-        <group name="discol">
-            <displayName>Discol</displayName>
-        </group>
-        <group name="Sistemas" parentPath="/discol">
-            <displayName>Sistemas</displayName>
-        </group>
-        <group name="Gestion_Humana" parentPath="/discol">
-            <displayName>Gestion humana</displayName>
-        </group>
-        <group name="Logistica" parentPath="/discol">
-            <displayName>Logistica</displayName>
-        </group>
-        <group name="PQRSF" parentPath="/discol">
-            <displayName>PQRSF</displayName>
-        </group>
-        <group name="Control_Y_Gestion" parentPath="/discol">
-            <displayName>Control y gestion</displayName>
-        </group>
-        <group name="Calidad" parentPath="/discol">
-            <displayName>Calidad</displayName>
-        </group>
-        <group name="HSE" parentPath="/discol">
-            <displayName>HSE</displayName>
-        </group>
-        <group name="Comercial" parentPath="/discol">
-            <displayName>Comercial</displayName>
-        </group>
-        <group name="Gerencia" parentPath="/discol">
-            <displayName>Gerencia</displayName>
-        </group>
-        <group name="Direccion_Administrativa" parentPath="/discol">
-            <displayName>Direccion administrativa</displayName>
-        </group>
-        <group name="Nomina" parentPath="/discol">
-            <displayName>Nomina</displayName>
-        </group>
-        <group name="Contabilidad" parentPath="/discol">
-            <displayName>Contabiidad</displayName>
-        </group>
-        <group name="Tesoreria" parentPath="/discol">
-            <displayName>Tesoreria</displayName>
-        </group>
-    </groups>
-    <memberships>
-        <membership>
-            <userName>lider-sistemas</userName>
-            <roleName>Lider</roleName>
-            <groupName>Sistemas</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-gh</userName>
-            <roleName>Lider</roleName>
-            <groupName>Gestion_Humana</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-gh</userName>
-            <roleName>member</roleName>
-            <groupName>Gestion_Humana</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-logistica</userName>
-            <roleName>Lider</roleName>
-            <groupName>Logistica</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-logistica</userName>
-            <roleName>member</roleName>
-            <groupName>Logistica</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-pqrsf</userName>
-            <roleName>Lider</roleName>
-            <groupName>PQRSF</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-pqrsf</userName>
-            <roleName>member</roleName>
-            <groupName>PQRSF</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-cgestion</userName>
-            <roleName>Lider</roleName>
-            <groupName>Control_Y_Gestion</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-cgestion</userName>
-            <roleName>member</roleName>
-            <groupName>Control_Y_Gestion</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-calidad</userName>
-            <roleName>Lider</roleName>
-            <groupName>Calidad</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-calidad</userName>
-            <roleName>member</roleName>
-            <groupName>Calidad</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-hse</userName>
-            <roleName>Lider</roleName>
-            <groupName>HSE</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-hse</userName>
-            <roleName>member</roleName>
-            <groupName>HSE</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-comercial</userName>
-            <roleName>Lider</roleName>
-            <groupName>Comercial</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-comercial</userName>
-            <roleName>member</roleName>
-            <groupName>Comercial</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>director-admin</userName>
-            <roleName>Lider</roleName>
-            <groupName>Direccion_Administrativa</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>gerencia-discol</userName>
-            <roleName>Lider</roleName>
-            <groupName>Gerencia</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>gerencia-discol</userName>
-            <roleName>member</roleName>
-            <groupName>Gerencia</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>director-admin</userName>
-            <roleName>member</roleName>
-            <groupName>Direccion_Administrativa</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-nomina</userName>
-            <roleName>Lider</roleName>
-            <groupName>Nomina</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-nomina</userName>
-            <roleName>member</roleName>
-            <groupName>Nomina</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-contabilidad</userName>
-            <roleName>Lider</roleName>
-            <groupName>Contabilidad</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-contabilidad</userName>
-            <roleName>member</roleName>
-            <groupName>Contabilidad</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-tesoreria</userName>
-            <roleName>Lider</roleName>
-            <groupName>Tesoreria</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>lider-tesoreria</userName>
-            <roleName>member</roleName>
-            <groupName>Tesoreria</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>asistemas</userName>
-            <roleName>member</roleName>
-            <groupName>Sistemas</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>asistemas2</userName>
-            <roleName>member</roleName>
-            <groupName>Sistemas</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>auxlogistica</userName>
-            <roleName>member</roleName>
-            <groupName>Logistica</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>auxlogistica2</userName>
-            <roleName>member</roleName>
-            <groupName>Logistica</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>aux.gestion.humana</userName>
-            <roleName>member</roleName>
-            <groupName>Gestion_Humana</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>aux.gestion.humana2</userName>
-            <roleName>member</roleName>
-            <groupName>Gestion_Humana</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>aux-cgestion</userName>
-            <roleName>member</roleName>
-            <groupName>Control_Y_Gestion</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>aux-cgestion2</userName>
-            <roleName>member</roleName>
-            <groupName>Control_Y_Gestion</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>an.hse</userName>
-            <roleName>member</roleName>
-            <groupName>HSE</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>an.hse2</userName>
-            <roleName>member</roleName>
-            <groupName>HSE</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>asistencia.gerencia</userName>
-            <roleName>member</roleName>
-            <groupName>Gerencia</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>asistencia.subg</userName>
-            <roleName>member</roleName>
-            <groupName>Gerencia</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>auxnomina</userName>
-            <roleName>member</roleName>
-            <groupName>Nomina</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>auxnomina2</userName>
-            <roleName>member</roleName>
-            <groupName>Nomina</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>aux-tesoreria</userName>
-            <roleName>member</roleName>
-            <groupName>Tesoreria</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>aux-tesoreria2</userName>
-            <roleName>member</roleName>
-            <groupName>Tesoreria</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>auxcontable</userName>
-            <roleName>member</roleName>
-            <groupName>Contabilidad</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-        <membership>
-            <userName>auxcontable2</userName>
-            <roleName>member</roleName>
-            <groupName>Contabilidad</groupName>
-            <groupParentPath>/discol</groupParentPath>
-            <assignedDate>0</assignedDate>
-        </membership>
-    </memberships>
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="lider-sistemas">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">pcCm3kwvye28qZXbf0E9mA==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lider-gh">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">MMVl6CieE1otfzOCbhWgxg==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lider-logistica">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">T6WownE+CPX1tVWdWG40yQ==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lider-pqrsf">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">Vivx5XAgwqt5ocF4B/jz1A==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lider-cgestion">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">nZpFCkR9zaPIpZW7eYKIug==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lider-calidad">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">u8iT+W7MSpBiga/oKYcxDQ==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lider-hse">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">MrmORlfnYeo50PlTPldFSA==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lider-comercial">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">OezPrkEMzAZDwe1YloKz9Q==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="director-admin">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">KMUSb9lVQdJTb9rBi7cKBg==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="gerencia-discol">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="false">6r1NE7IznN2tW0ve2d383A==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lider-nomina">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">jeSuV9aeqxT/Rie86Soeug==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lider-contabilidad">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">IY8wRTqjjPChvIs+zGKSZA==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lider-tesoreria">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">iGBqwaCb4tULcYCCJwccGQ==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="asistemas">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">gPtvj0OaqGjyaOG1KNzPvA==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="asistemas2">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">I/XsuFJsuF2N5LbtnoBhpQ==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="auxlogistica">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">q7qkaxGXLeOQBcBpFsOlhA==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="auxlogistica2">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">bK4zCKXM3hhIdKSxtoCBRg==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="aux.gestion.humana">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">18pxsMXsx+2dklCtFoUHQA==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="aux.gestion.humana2">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">36HvJA0DBsb83IwaTHEIyw==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="aux-cgestion">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">nZpFCkR9zaPIpZW7eYKIug==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="aux-cgestion2">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">EQtUwPsBGsc1B1clljH/gg==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="an.hse">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">MrmORlfnYeo50PlTPldFSA==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="an.hse2">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">6naFh4Oek7MgBtBjLZBOgA==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="asistencia.gerencia">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">ntm9b+xFIhmD/zkqP9grXg==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="asistencia.subg">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">kTtX8XrCwyznGYoIOk3Xbg==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="auxnomina">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">vVuDYlSKXa/g6KDbUwXPgA==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="auxnomina2">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">IECSbnh5hvixOdtyQQixZA==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="aux-tesoreria">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">cCWoGlv25oqWchuRFuo/5w==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="aux-tesoreria2">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">a9PenxuDu51aoh854hmTEQ==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="auxcontable">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">pdcksgQNitc84bIif5r+Uw==</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="auxcontable2">
+      <personalData/>
+      <professionalData/>
+      <metaDatas/>
+      <enabled>true</enabled>
+      <password encrypted="true">p6+VsTI77c0neo3Sf8CCpA==</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="member">
+      <displayName>Member</displayName>
+      <description></description>
+    </role>
+    <role name="Lider">
+      <displayName>Lider</displayName>
+      <description>Administrador de procesos</description>
+    </role>
+    <role name="digitador">
+      <displayName>Digitador</displayName>
+      <description>Persona que abastece de datos para el funcionamiento del sistema</description>
+    </role>
+    <role name="director">
+      <displayName>Director</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="discol">
+      <displayName>Discol</displayName>
+    </group>
+    <group name="Sistemas" parentPath="/discol">
+      <displayName>Sistemas</displayName>
+    </group>
+    <group name="Gestion_Humana" parentPath="/discol">
+      <displayName>Gestion humana</displayName>
+    </group>
+    <group name="Logistica" parentPath="/discol">
+      <displayName>Logistica</displayName>
+    </group>
+    <group name="PQRSF" parentPath="/discol">
+      <displayName>PQRSF</displayName>
+    </group>
+    <group name="Control_Y_Gestion" parentPath="/discol">
+      <displayName>Control y gestion</displayName>
+    </group>
+    <group name="Calidad" parentPath="/discol">
+      <displayName>Calidad</displayName>
+    </group>
+    <group name="HSE" parentPath="/discol">
+      <displayName>HSE</displayName>
+    </group>
+    <group name="Comercial" parentPath="/discol">
+      <displayName>Comercial</displayName>
+    </group>
+    <group name="Gerencia" parentPath="/discol">
+      <displayName>Gerencia</displayName>
+    </group>
+    <group name="Direccion_Administrativa" parentPath="/discol">
+      <displayName>Direccion administrativa</displayName>
+    </group>
+    <group name="Nomina" parentPath="/discol">
+      <displayName>Nomina</displayName>
+    </group>
+    <group name="Contabilidad" parentPath="/discol">
+      <displayName>Contabiidad</displayName>
+    </group>
+    <group name="Tesoreria" parentPath="/discol">
+      <displayName>Tesoreria</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>lider-sistemas</userName>
+      <roleName>Lider</roleName>
+      <groupName>Sistemas</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-gh</userName>
+      <roleName>Lider</roleName>
+      <groupName>Gestion_Humana</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-gh</userName>
+      <roleName>member</roleName>
+      <groupName>Gestion_Humana</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-logistica</userName>
+      <roleName>Lider</roleName>
+      <groupName>Logistica</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-logistica</userName>
+      <roleName>member</roleName>
+      <groupName>Logistica</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-pqrsf</userName>
+      <roleName>Lider</roleName>
+      <groupName>PQRSF</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-pqrsf</userName>
+      <roleName>member</roleName>
+      <groupName>PQRSF</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-cgestion</userName>
+      <roleName>Lider</roleName>
+      <groupName>Control_Y_Gestion</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-cgestion</userName>
+      <roleName>member</roleName>
+      <groupName>Control_Y_Gestion</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-calidad</userName>
+      <roleName>Lider</roleName>
+      <groupName>Calidad</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-calidad</userName>
+      <roleName>member</roleName>
+      <groupName>Calidad</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-hse</userName>
+      <roleName>Lider</roleName>
+      <groupName>HSE</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-hse</userName>
+      <roleName>member</roleName>
+      <groupName>HSE</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-comercial</userName>
+      <roleName>Lider</roleName>
+      <groupName>Comercial</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-comercial</userName>
+      <roleName>member</roleName>
+      <groupName>Comercial</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>director-admin</userName>
+      <roleName>Lider</roleName>
+      <groupName>Direccion_Administrativa</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>gerencia-discol</userName>
+      <roleName>Lider</roleName>
+      <groupName>Gerencia</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>gerencia-discol</userName>
+      <roleName>member</roleName>
+      <groupName>Gerencia</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>director-admin</userName>
+      <roleName>member</roleName>
+      <groupName>Direccion_Administrativa</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-nomina</userName>
+      <roleName>Lider</roleName>
+      <groupName>Nomina</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-nomina</userName>
+      <roleName>member</roleName>
+      <groupName>Nomina</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-contabilidad</userName>
+      <roleName>Lider</roleName>
+      <groupName>Contabilidad</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-contabilidad</userName>
+      <roleName>member</roleName>
+      <groupName>Contabilidad</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-tesoreria</userName>
+      <roleName>Lider</roleName>
+      <groupName>Tesoreria</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>lider-tesoreria</userName>
+      <roleName>member</roleName>
+      <groupName>Tesoreria</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>asistemas</userName>
+      <roleName>member</roleName>
+      <groupName>Sistemas</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>asistemas2</userName>
+      <roleName>member</roleName>
+      <groupName>Sistemas</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>auxlogistica</userName>
+      <roleName>member</roleName>
+      <groupName>Logistica</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>auxlogistica2</userName>
+      <roleName>member</roleName>
+      <groupName>Logistica</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>aux.gestion.humana</userName>
+      <roleName>member</roleName>
+      <groupName>Gestion_Humana</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>aux.gestion.humana2</userName>
+      <roleName>member</roleName>
+      <groupName>Gestion_Humana</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>aux-cgestion</userName>
+      <roleName>member</roleName>
+      <groupName>Control_Y_Gestion</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>aux-cgestion2</userName>
+      <roleName>member</roleName>
+      <groupName>Control_Y_Gestion</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>an.hse</userName>
+      <roleName>member</roleName>
+      <groupName>HSE</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>an.hse2</userName>
+      <roleName>member</roleName>
+      <groupName>HSE</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>asistencia.gerencia</userName>
+      <roleName>member</roleName>
+      <groupName>Gerencia</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>asistencia.subg</userName>
+      <roleName>member</roleName>
+      <groupName>Gerencia</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>auxnomina</userName>
+      <roleName>member</roleName>
+      <groupName>Nomina</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>auxnomina2</userName>
+      <roleName>member</roleName>
+      <groupName>Nomina</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>aux-tesoreria</userName>
+      <roleName>member</roleName>
+      <groupName>Tesoreria</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>aux-tesoreria2</userName>
+      <roleName>member</roleName>
+      <groupName>Tesoreria</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>auxcontable</userName>
+      <roleName>member</roleName>
+      <groupName>Contabilidad</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>auxcontable2</userName>
+      <roleName>member</roleName>
+      <groupName>Contabilidad</groupName>
+      <groupParentPath>/discol</groupParentPath>
+      <assignedDate>0</assignedDate>
+    </membership>
+    <membership>
+      <userName>asistemas</userName>
+      <roleName>digitador</roleName>
+      <groupName>Sistemas</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+    <membership>
+      <userName>gerencia-discol</userName>
+      <roleName>director</roleName>
+      <groupName>Gerencia</groupName>
+      <groupParentPath>/discol</groupParentPath>
+    </membership>
+  </memberships>
 </organization:Organization>
